@@ -5120,8 +5120,8 @@
                 0
             ],
             "id": "15658b9a-6e02-4e6c-ae57-861859e01eaf",
-            "x": 447.18178914503187,
-            "y": 241.53147485151044,
+            "x": 446.31124813422196,
+            "y": 241.53147485151038,
             "actors": [
                 {
                     "name": "UI_Health",
@@ -12829,6 +12829,85 @@
                     "id": "efb5c69c-7b5f-4ba7-89e5-f307b17729de",
                     "x": 2,
                     "y": 2
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "1db8c8ea-f1e4-4f36-86eb-567bcb267674",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "6",
+                                "value": {
+                                    "type": "number",
+                                    "value": 1
+                                }
+                            },
+                            "id": "8aaa9bae-07dc-422d-9865-befdd95dbe7a"
+                        }
+                    ],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -3,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            },
+                            "id": "d4e964f4-e283-48c1-a8ae-de1cad6773e1"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1
+                            },
+                            "id": "c3865fc7-3e8f-4d1b-8f5b-79ef52c9499e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 3,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            },
+                            "id": "da87b6ef-00ba-4006-b66e-0a6746d1bf0e"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1
+                            },
+                            "id": "83ab5566-f75e-42ac-b146-940383e0c3de"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "84a0269f-125d-4d14-a106-b3f61fc76125",
+                                "$variable[0]$": "6"
+                            },
+                            "id": "640ab9ae-ced1-4b7e-ac69-ccce152b58ca"
+                        }
+                    ],
+                    "id": "6ff93459-e173-449e-82d8-856cad92c6b3",
+                    "x": 18,
+                    "y": 15
                 }
             ],
             "triggers": [
@@ -24932,8 +25011,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 4,
-        "zoom": 229.7421919432736,
+        "worldScrollY": 0,
+        "zoom": 79.74219194327361,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
