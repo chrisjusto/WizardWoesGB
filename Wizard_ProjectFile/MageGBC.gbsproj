@@ -2081,8 +2081,8 @@
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
                                     "sceneId": "2eee294b-e656-4d7f-ab47-c24937a181c1",
-                                    "x": 1,
-                                    "y": 7,
+                                    "x": 4,
+                                    "y": 3,
                                     "direction": "right",
                                     "fadeSpeed": "2",
                                     "__collapse": false
@@ -13426,67 +13426,6 @@
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
                 15,
                 15,
@@ -13504,28 +13443,9 @@
                 15,
                 15,
                 15,
-                0,
-                0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
-                0,
-                0,
                 0,
                 0,
                 0,
@@ -13594,6 +13514,86 @@
                 15,
                 15,
                 15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 0,
                 1,
@@ -13821,14 +13821,16 @@
                             "command": "EVENT_IF_EXPRESSION",
                             "args": {
                                 "expression": "$03$ > 9",
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
                                     {
                                         "command": "EVENT_WAIT",
                                         "args": {
-                                            "time": 1
+                                            "time": 1,
+                                            "__collapse": true
                                         },
                                         "id": "0c9fb340-47ad-4e03-afcc-52cbcb9c762d"
                                     }
@@ -13838,7 +13840,9 @@
                                         "command": "EVENT_IF_EXPRESSION",
                                         "args": {
                                             "expression": "$03$ > 6",
-                                            "__collapseElse": false
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__label": "Phase 1"
                                         },
                                         "children": {
                                             "true": [
@@ -13895,14 +13899,16 @@
                                                         "__collapseCase15": false,
                                                         "value15": 16,
                                                         "__collapseElse": false,
-                                                        "__collapse": true
+                                                        "__collapse": true,
+                                                        "__label": "Which Lazer Hits"
                                                     },
                                                     "children": {
                                                         "true0": [
                                                             {
                                                                 "command": "EVENT_GROUP",
                                                                 "args": {
-                                                                    "__collapse": true
+                                                                    "__collapse": true,
+                                                                    "__label": "TopLazer Top Position"
                                                                 },
                                                                 "children": {
                                                                     "true": [
@@ -13929,21 +13935,24 @@
                                                                                 "frame": {
                                                                                     "type": "number",
                                                                                     "value": 1
-                                                                                }
+                                                                                },
+                                                                                "__collapse": false
                                                                             },
                                                                             "id": "6f19bff8-7e15-4bf2-afd0-03322c0b35a6"
                                                                         },
                                                                         {
                                                                             "command": "EVENT_ACTOR_SHOW",
                                                                             "args": {
-                                                                                "actorId": "d5331b5b-af34-4841-b45d-fec6bc91231e"
+                                                                                "actorId": "d5331b5b-af34-4841-b45d-fec6bc91231e",
+                                                                                "__collapse": false
                                                                             },
                                                                             "id": "08e7fbfd-29c6-46ab-ba18-9bd80f302331"
                                                                         },
                                                                         {
                                                                             "command": "EVENT_WAIT",
                                                                             "args": {
-                                                                                "time": 0.25
+                                                                                "time": 0.25,
+                                                                                "__collapse": true
                                                                             },
                                                                             "id": "8f07e590-384c-470c-a253-0c80450d2b99"
                                                                         },
@@ -13954,14 +13963,16 @@
                                                                                 "frame": {
                                                                                     "type": "number",
                                                                                     "value": 2
-                                                                                }
+                                                                                },
+                                                                                "__collapse": false
                                                                             },
                                                                             "id": "c8ef4a0e-8738-49af-96e3-0b4193e2b7e3"
                                                                         },
                                                                         {
                                                                             "command": "EVENT_WAIT",
                                                                             "args": {
-                                                                                "time": 0.25
+                                                                                "time": 0.25,
+                                                                                "__collapse": true
                                                                             },
                                                                             "id": "2149e62f-d5d0-4ced-a016-a32132a35014"
                                                                         },
@@ -13986,7 +13997,8 @@
                                                                         {
                                                                             "command": "EVENT_WAIT",
                                                                             "args": {
-                                                                                "time": 0.25
+                                                                                "time": 0.25,
+                                                                                "__collapse": true
                                                                             },
                                                                             "id": "83db9ab4-65dd-4551-928a-9375aac04a31"
                                                                         },
@@ -14004,7 +14016,8 @@
                                                                         {
                                                                             "command": "EVENT_WAIT",
                                                                             "args": {
-                                                                                "time": 0.25
+                                                                                "time": 0.25,
+                                                                                "__collapse": true
                                                                             },
                                                                             "id": "8ab2cf7e-38df-457f-ba24-c02f5b53c3b0"
                                                                         },
@@ -14039,7 +14052,8 @@
                                                             {
                                                                 "command": "EVENT_GROUP",
                                                                 "args": {
-                                                                    "__collapse": true
+                                                                    "__collapse": true,
+                                                                    "__label": "BottomLazer Middle Position"
                                                                 },
                                                                 "children": {
                                                                     "true": [
@@ -14176,7 +14190,8 @@
                                                             {
                                                                 "command": "EVENT_GROUP",
                                                                 "args": {
-                                                                    "__collapse": true
+                                                                    "__collapse": true,
+                                                                    "__label": "Bottom Lazer Bottom Posotion"
                                                                 },
                                                                 "children": {
                                                                     "true": [
@@ -14340,7 +14355,8 @@
                                                     "command": "EVENT_IF_EXPRESSION",
                                                     "args": {
                                                         "expression": "$03$ > 3",
-                                                        "__collapseElse": false
+                                                        "__collapseElse": false,
+                                                        "__label": "Phase 2"
                                                     },
                                                     "children": {
                                                         "true": [],
@@ -14349,7 +14365,8 @@
                                                                 "command": "EVENT_IF_EXPRESSION",
                                                                 "args": {
                                                                     "expression": "$03$ > 0",
-                                                                    "__collapseElse": true
+                                                                    "__collapseElse": true,
+                                                                    "__label": "Phase 3"
                                                                 },
                                                                 "children": {
                                                                     "true": [],
@@ -19508,8 +19525,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "2eee294b-e656-4d7f-ab47-c24937a181c1",
-                                "x": 0,
-                                "y": 7,
+                                "x": 4,
+                                "y": 3,
                                 "direction": "right",
                                 "fadeSpeed": "2"
                             },
@@ -37345,7 +37362,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 2550,
-        "worldScrollY": 860,
+        "worldScrollY": 841,
         "zoom": 250,
         "customColorsEnabled": false,
         "sgbEnabled": false,
