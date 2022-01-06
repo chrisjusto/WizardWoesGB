@@ -1839,6 +1839,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                    "args": {
+                        "actorId": "$self$",
+                        "speed": 15
+                    },
+                    "id": "5c9c9e4e-4475-4c3f-afe0-f2263508fde4"
+                },
+                {
                     "command": "EVENT_SET_FALSE",
                     "args": {
                         "variable": "0"
@@ -43326,8 +43334,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 204,
+        "worldScrollX": 177,
+        "worldScrollY": 177,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
