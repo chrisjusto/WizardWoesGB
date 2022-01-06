@@ -1839,6 +1839,13 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_SET_FALSE",
+                    "args": {
+                        "variable": "0"
+                    },
+                    "id": "3855b483-70b0-43a9-b730-d27b6563a903"
+                },
+                {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -1867,14 +1874,14 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
                             {
                                 "command": "EVENT_GROUP",
                                 "args": {
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -42252,7 +42259,7 @@
                                 "command": "EVENT_ACTOR_HIDE",
                                 "args": {
                                     "actorId": "0",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "559ae4e9-9fb4-4d93-ac26-88386a74c6fd"
                             },
@@ -42260,7 +42267,7 @@
                                 "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                                 "args": {
                                     "actorId": "0",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "9ab9f819-1e2b-4791-ba30-1c7ed56e745f"
                             },
@@ -43319,8 +43326,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1503,
-        "worldScrollY": 586,
+        "worldScrollX": 0,
+        "worldScrollY": 204,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
