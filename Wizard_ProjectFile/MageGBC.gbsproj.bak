@@ -21483,7 +21483,7 @@
                                                             {
                                                                 "command": "EVENT_ACTOR_SET_FRAME",
                                                                 "args": {
-                                                                    "actorId": "26a06e4b-f1ce-4a5e-8a56-a78c444576c8",
+                                                                    "actorId": "45d81956-dbdd-44e8-9426-a0f384c7754f",
                                                                     "frame": {
                                                                         "type": "variable",
                                                                         "value": "1"
@@ -21535,7 +21535,7 @@
                                                             {
                                                                 "command": "EVENT_ACTOR_SET_FRAME",
                                                                 "args": {
-                                                                    "actorId": "dc93b656-ef32-4dfa-b075-ce86213a3214",
+                                                                    "actorId": "1473a22c-8bea-45b8-b1a6-cd850a726b07",
                                                                     "frame": {
                                                                         "type": "variable",
                                                                         "value": "14"
@@ -43307,8 +43307,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 899,
-        "worldScrollY": 655,
+        "worldScrollX": 1470,
+        "worldScrollY": 509,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,

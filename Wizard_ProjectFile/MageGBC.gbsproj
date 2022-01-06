@@ -957,7 +957,7 @@
                         "customEventId": "3ec82451-00aa-47bd-b329-b569b62b7e47",
                         "$actor[0]$": "c1eb532b-3de9-46dc-b1b0-6cbdba1c749f",
                         "$variable[1]$": "14",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "523f1684-9e8a-49b8-8aaa-cac4d2ca9db8"
                 },
@@ -3912,7 +3912,7 @@
                         "customEventId": "3ec82451-00aa-47bd-b329-b569b62b7e47",
                         "$actor[0]$": "31ce7e44-c1fe-485d-8373-7a1e3aec25bb",
                         "$variable[1]$": "14",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "3105e96b-0c89-4a06-9779-ce05564509e8"
                 },
@@ -3924,7 +3924,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -5450,7 +5450,7 @@
                         "$variable[0]$": "0",
                         "$actor[0]$": "857f01bd-2980-4608-9e04-f5bf2e9cf690",
                         "$variable[1]$": "14",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "22f09bac-d86c-442d-9618-c29259fd75f0"
                 },
@@ -5462,7 +5462,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -6942,7 +6942,7 @@
                         "customEventId": "3ec82451-00aa-47bd-b329-b569b62b7e47",
                         "$actor[0]$": "c15c14c9-34c5-4cb5-9418-612d6b40b63c",
                         "$variable[1]$": "14",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "87bd979e-52af-4847-aa8e-cf243b963f2b"
                 },
@@ -6963,7 +6963,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -11725,7 +11725,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -12161,7 +12161,7 @@
                         "customEventId": "3ec82451-00aa-47bd-b329-b569b62b7e47",
                         "$actor[0]$": "c15c14c9-34c5-4cb5-9418-612d6b40b63c",
                         "$variable[1]$": "14",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "04aa02bd-eaa0-4fc4-bae7-5b1dc83b7682"
                 }
@@ -18376,7 +18376,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -20476,7 +20476,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -21703,7 +21703,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -42081,7 +42081,12 @@
             "id": "3ec82451-00aa-47bd-b329-b569b62b7e47",
             "name": "Init: CustomInputs",
             "description": "",
-            "variables": {},
+            "variables": {
+                "0": {
+                    "id": "0",
+                    "name": "Attacking"
+                }
+            },
             "actors": {},
             "script": [
                 {
@@ -42090,6 +42095,13 @@
                         "customEventId": "cd65cf92-a7a2-4606-892a-c37bbbbf19a4"
                     },
                     "id": "ee9cd846-74b7-4282-9312-6add58f5c815"
+                },
+                {
+                    "command": "EVENT_SET_FALSE",
+                    "args": {
+                        "variable": "0"
+                    },
+                    "id": "15a437d5-3eed-4d41-af6e-c74d04a1a97b"
                 }
             ]
         },
@@ -43307,8 +43319,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1470,
-        "worldScrollY": 509,
+        "worldScrollX": 1503,
+        "worldScrollY": 586,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
