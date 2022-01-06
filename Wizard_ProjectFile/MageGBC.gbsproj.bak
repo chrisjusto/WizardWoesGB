@@ -19597,8 +19597,8 @@
                 15,
                 0,
                 15,
-                15,
-                15,
+                0,
+                0,
                 15,
                 0,
                 15,
@@ -26770,7 +26770,8 @@
             "height": 36,
             "imageWidth": 160,
             "imageHeight": 288,
-            "filename": "Level1-8.png"
+            "filename": "Level1-8.png",
+            "tileColors": []
         },
         {
             "id": "6ce8dd97-b1ed-422b-b45f-fe8130e023dc",
@@ -26779,7 +26780,8 @@
             "height": 18,
             "imageWidth": 480,
             "imageHeight": 144,
-            "filename": "Level1-9a.png"
+            "filename": "Level1-9a.png",
+            "tileColors": []
         },
         {
             "id": "cd25f9e4-9b96-4d9b-b774-9f64a6dd9bfd",
@@ -26788,7 +26790,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Level1-9b.png"
+            "filename": "Level1-9b.png",
+            "tileColors": []
         },
         {
             "id": "ec6db79c-0adb-42ec-8e1a-ef7105c0fbae",
@@ -43070,8 +43073,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1397,
-        "worldScrollY": 407,
+        "worldScrollX": 1974,
+        "worldScrollY": 211,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
