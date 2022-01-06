@@ -18647,7 +18647,7 @@
         },
         {
             "name": "Level 1-9a",
-            "backgroundId": "8a9e5485-cc8e-45d2-a3b8-884390361836",
+            "backgroundId": "6ce8dd97-b1ed-422b-b45f-fe8130e023dc",
             "width": 60,
             "height": 18,
             "type": "PLATFORM",
@@ -19597,8 +19597,8 @@
                 15,
                 0,
                 15,
-                0,
-                0,
+                15,
+                15,
                 15,
                 0,
                 15,
@@ -20757,7 +20757,7 @@
         },
         {
             "name": "Level 1-9b",
-            "backgroundId": "bcea41cc-04b8-4c21-a637-de0cd58342d0",
+            "backgroundId": "cd25f9e4-9b96-4d9b-b774-9f64a6dd9bfd",
             "width": 20,
             "height": 18,
             "type": "PLATFORM",
@@ -21984,7 +21984,7 @@
         },
         {
             "name": "Level 1-10",
-            "backgroundId": "0f545a36-616f-49ff-8075-b0c5b653b64d",
+            "backgroundId": "f252acdd-daa9-48f4-9d1c-4e1d2ea00cff",
             "width": 20,
             "height": 36,
             "type": "PLATFORM",
@@ -23494,7 +23494,7 @@
         },
         {
             "name": "Level 1-8",
-            "backgroundId": "f252acdd-daa9-48f4-9d1c-4e1d2ea00cff",
+            "backgroundId": "44ae3c87-dc04-4d5e-b6c2-04a7fea7d318",
             "width": 20,
             "height": 36,
             "type": "PLATFORM",
@@ -26690,7 +26690,8 @@
             "height": 36,
             "imageWidth": 160,
             "imageHeight": 288,
-            "filename": "Level1-10.png"
+            "filename": "Level1-10.png",
+            "tileColors": []
         },
         {
             "id": "24d4ab9a-07ae-492d-9435-29e790d158ba",
@@ -26763,34 +26764,31 @@
             "tileColors": []
         },
         {
-            "id": "8a9e5485-cc8e-45d2-a3b8-884390361836",
-            "name": "Level1-8a",
-            "width": 60,
-            "height": 18,
-            "imageWidth": 480,
-            "imageHeight": 144,
-            "filename": "Level1-8a.png",
-            "tileColors": []
-        },
-        {
-            "id": "bcea41cc-04b8-4c21-a637-de0cd58342d0",
-            "name": "Level1-8b",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Level1-8b.png",
-            "tileColors": []
-        },
-        {
-            "id": "0f545a36-616f-49ff-8075-b0c5b653b64d",
-            "name": "Level1-9",
+            "id": "44ae3c87-dc04-4d5e-b6c2-04a7fea7d318",
+            "name": "Level1-8",
             "width": 20,
             "height": 36,
             "imageWidth": 160,
             "imageHeight": 288,
-            "filename": "Level1-9.png",
-            "tileColors": []
+            "filename": "Level1-8.png"
+        },
+        {
+            "id": "6ce8dd97-b1ed-422b-b45f-fe8130e023dc",
+            "name": "Level1-9a",
+            "width": 60,
+            "height": 18,
+            "imageWidth": 480,
+            "imageHeight": 144,
+            "filename": "Level1-9a.png"
+        },
+        {
+            "id": "cd25f9e4-9b96-4d9b-b774-9f64a6dd9bfd",
+            "name": "Level1-9b",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Level1-9b.png"
         },
         {
             "id": "ec6db79c-0adb-42ec-8e1a-ef7105c0fbae",
@@ -43072,8 +43070,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1206,
-        "worldScrollY": 307,
+        "worldScrollX": 1397,
+        "worldScrollY": 407,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
