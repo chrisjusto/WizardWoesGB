@@ -5134,8 +5134,8 @@
                 0
             ],
             "id": "15658b9a-6e02-4e6c-ae57-861859e01eaf",
-            "x": 456.6469720030764,
-            "y": 242.54416048668813,
+            "x": 454.6469720030765,
+            "y": 240.1441604866881,
             "actors": [
                 {
                     "name": "UI_Health",
@@ -5430,7 +5430,7 @@
                                 "sceneId": "4672148e-0920-45de-b2b0-070ae8524a95",
                                 "x": 0,
                                 "y": 5,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             },
                             "id": "081f0b7e-179d-402c-8225-6ab17a3fd2ba"
@@ -51359,7 +51359,7 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 0,
+        "worldScrollX": 124,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
