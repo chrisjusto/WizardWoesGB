@@ -2096,9 +2096,9 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "fb2614c6-f7e6-4e51-8362-9eb2a708d3c8",
-                                    "x": 0,
-                                    "y": 15,
+                                    "sceneId": "2eee294b-e656-4d7f-ab47-c24937a181c1",
+                                    "x": 3,
+                                    "y": 3,
                                     "direction": "right",
                                     "fadeSpeed": "2",
                                     "__collapse": false
@@ -14887,6 +14887,41 @@
                             "id": "cabb8ec6-2694-472e-ab8a-f51dd057759b"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Disable Hitstun",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_SET_STATE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "spriteStateId": ""
+                                        },
+                                        "id": "bac8f197-4596-465c-8b40-4445d9ea6558"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "2c4bd3b4-64b3-4794-b04b-70648170c5b0"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 63
+                                        },
+                                        "id": "87a267aa-28f9-4d15-ac9d-e7401d8671ea"
+                                    }
+                                ]
+                            },
+                            "id": "db1a17ec-29b4-42c9-981d-69a1e4e08d4b"
+                        },
+                        {
                             "command": "EVENT_IF_EXPRESSION",
                             "args": {
                                 "expression": "$03$ > 9",
@@ -24188,7 +24223,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "2eee294b-e656-4d7f-ab47-c24937a181c1",
-                                "x": 4,
+                                "x": 1,
                                 "y": 3,
                                 "direction": "right",
                                 "fadeSpeed": "2"
@@ -50690,7 +50725,7 @@
                         "operator": "==",
                         "comparator": "0",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -51468,21 +51503,24 @@
                         "variable": "0",
                         "operator": "==",
                         "comparator": "0",
-                        "__collapseElse": true
+                        "__collapseElse": true,
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
                             {
                                 "command": "EVENT_ACTOR_HIDE",
                                 "args": {
-                                    "actorId": "0"
+                                    "actorId": "0",
+                                    "__collapse": true
                                 },
                                 "id": "a5457a45-1b37-4347-9dc5-0b2ac35c222a"
                             },
                             {
                                 "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                                 "args": {
-                                    "actorId": "0"
+                                    "actorId": "0",
+                                    "__collapse": true
                                 },
                                 "id": "3c7581cb-a989-42ac-9d20-521bb1f0f668"
                             },
@@ -51493,7 +51531,8 @@
                                     "pitch": 4,
                                     "frequency": 200,
                                     "duration": 0.5,
-                                    "wait": false
+                                    "wait": false,
+                                    "__collapse": true
                                 },
                                 "id": "8bbadaf8-7f66-410d-8dd3-ce822d2b0844"
                             },
@@ -51504,7 +51543,8 @@
                                     "x": 9,
                                     "y": 11,
                                     "direction": "",
-                                    "fadeSpeed": 6
+                                    "fadeSpeed": 6,
+                                    "__collapse": true
                                 },
                                 "id": "87631609-f225-425d-9535-fe31d8d69748"
                             }
@@ -51517,7 +51557,8 @@
                     "command": "EVENT_ACTOR_SET_STATE",
                     "args": {
                         "actorId": "0",
-                        "spriteStateId": "HitstunRight"
+                        "spriteStateId": "HitstunRight",
+                        "__collapse": false
                     },
                     "id": "870a7b0c-074a-4c6c-81c8-e510297f4de5"
                 },
@@ -51530,6 +51571,13 @@
                     "id": "1c91bc2a-d1ef-4f27-a27a-d02a6458cf82"
                 },
                 {
+                    "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                    "args": {
+                        "actorId": "0"
+                    },
+                    "id": "12d5d058-9646-4459-9dc5-47a839acc7ae"
+                },
+                {
                     "command": "EVENT_SOUND_PLAY_EFFECT",
                     "args": {
                         "type": "crash",
@@ -51539,29 +51587,6 @@
                         "wait": false
                     },
                     "id": "44f2d009-bf65-436d-b150-36ce24203bab"
-                },
-                {
-                    "command": "EVENT_WAIT",
-                    "args": {
-                        "time": 0.5
-                    },
-                    "id": "46b20872-3165-4637-98d5-daa338766264"
-                },
-                {
-                    "command": "EVENT_ACTOR_SET_STATE",
-                    "args": {
-                        "actorId": "0",
-                        "spriteStateId": ""
-                    },
-                    "id": "d8097f1f-952d-4573-a2b0-3885c98c72fb"
-                },
-                {
-                    "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                    "args": {
-                        "actorId": "0",
-                        "speed": 63
-                    },
-                    "id": "ac1fe9cf-01f4-40b6-a7b1-54f6fa09745e"
                 }
             ]
         }
@@ -51779,9 +51804,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 751,
-        "worldScrollY": 0,
-        "zoom": 207.94268867373466,
+        "worldScrollX": 2810,
+        "worldScrollY": 745,
+        "zoom": 307.94268867373466,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -51809,9 +51834,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            202,
-            374,
-            202
+            248,
+            460,
+            248
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
