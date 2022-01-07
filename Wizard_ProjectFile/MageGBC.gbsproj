@@ -22341,7 +22341,7 @@
                 null,
                 null,
                 "51df7051-3d3d-4ff5-9285-fc3fafcc38cb",
-                "51df7051-3d3d-4ff5-9285-fc3fafcc38cb"
+                "dd6865d1-f13c-4cb8-ac00-bcd37bda5222"
             ],
             "collisions": [
                 15,
@@ -48835,9 +48835,9 @@
             "name": "Enemy_BirdPalette",
             "colors": [
                 "F8F8F8",
+                "F888F8",
                 "F85000",
-                "F85000",
-                "F888F8"
+                "000000"
             ]
         },
         {
@@ -51029,9 +51029,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 3169,
+        "worldScrollY": 1085,
+        "zoom": 300,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

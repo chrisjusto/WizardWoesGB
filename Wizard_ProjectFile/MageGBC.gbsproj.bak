@@ -11473,8 +11473,8 @@
                 0
             ],
             "id": "bae6214b-a5bc-4837-b1a7-3d825bd8e398",
-            "x": 798.629284964659,
-            "y": 414.3150200914086,
+            "x": 796.9149992503732,
+            "y": 399.45787723426554,
             "actors": [
                 {
                     "name": "UI_Health",
@@ -47899,7 +47899,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -47912,7 +47912,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -47925,7 +47925,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         }
                                     ]
@@ -51029,9 +51029,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 107,
-        "worldScrollY": 598,
-        "zoom": 350,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
