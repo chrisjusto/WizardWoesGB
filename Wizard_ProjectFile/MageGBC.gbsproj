@@ -391,7 +391,7 @@
                 0
             ],
             "id": "f0420936-5f39-4e44-b7a7-e5976ef94511",
-            "x": 97.42857142857137,
+            "x": 97.73626373626368,
             "y": 234.87965100754386,
             "actors": [
                 {
@@ -3089,8 +3089,8 @@
                 0
             ],
             "id": "52280544-e864-4d75-a88b-99f27ec2dad5",
-            "x": 276.89484397774055,
-            "y": 240.04657869382126,
+            "x": 279.35638243927923,
+            "y": 240.661963309206,
             "actors": [
                 {
                     "name": "Enemy: 1",
@@ -11473,8 +11473,8 @@
                 0
             ],
             "id": "bae6214b-a5bc-4837-b1a7-3d825bd8e398",
-            "x": 798.0139003492746,
-            "y": 412.7765585529471,
+            "x": 798.629284964659,
+            "y": 414.3150200914086,
             "actors": [
                 {
                     "name": "UI_Health",
@@ -26485,7 +26485,7 @@
                 0,
                 0,
                 0,
-                0,
+                1,
                 0,
                 1,
                 1,
@@ -28350,7 +28350,7 @@
                 0,
                 0,
                 0,
-                0,
+                1,
                 0,
                 0,
                 0,
@@ -44015,7 +44015,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44028,7 +44028,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44041,7 +44041,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         }
                                     ]
@@ -49194,7 +49194,7 @@
             "id": "cd89427c-51f2-4081-a2a7-f11a87e9348e",
             "name": "ManUIPalette",
             "colors": [
-                "F89058",
+                "F8F8B0",
                 "305098",
                 "509878",
                 "202850"
@@ -49218,6 +49218,16 @@
                 "086860",
                 "200040",
                 "200040"
+            ]
+        },
+        {
+            "id": "c73219a1-dc8f-47da-b3b9-950039e191d3",
+            "name": "HealthUIPalette",
+            "colors": [
+                "F8F8B0",
+                "F89058",
+                "983000",
+                "983000"
             ]
         }
     ],
@@ -51349,8 +51359,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4270,
-        "worldScrollY": 1305,
+        "worldScrollX": 156,
+        "worldScrollY": 127,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -51363,15 +51373,15 @@
             "default-bg-5",
             "default-bg-6",
             "default-bg-1",
-            "default-bg-1"
+            "9fd5e4ff-6f56-4423-933b-045933f1c950"
         ],
         "defaultSpritePaletteIds": [
-            "d1b5c84e-93c2-412b-80aa-a1577536cbc8",
             "6537cf22-0c77-49eb-b34a-3294f74bee28",
+            "d1b5c84e-93c2-412b-80aa-a1577536cbc8",
             "97bcf458-9fae-4fb0-b317-7e5083e8ac6d",
-            "default-bg-4",
-            "default-bg-5",
-            "default-bg-6",
+            "cd89427c-51f2-4081-a2a7-f11a87e9348e",
+            "a3f87ddf-7670-40d7-a0c8-23ba64e038a7",
+            "c73219a1-dc8f-47da-b3b9-950039e191d3",
             "default-bg-1",
             "default-bg-1"
         ],

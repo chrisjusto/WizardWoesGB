@@ -49205,7 +49205,7 @@
             "name": "BossBackgroundPalette",
             "colors": [
                 "F8F8B0",
-                "F8F800",
+                "80C0B0",
                 "086860",
                 "200040"
             ]
@@ -51349,9 +51349,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1360,
-        "worldScrollY": 382,
-        "zoom": 175,
+        "worldScrollX": 4270,
+        "worldScrollY": 1305,
+        "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
