@@ -13756,8 +13756,8 @@
                 "cd89427c-51f2-4081-a2a7-f11a87e9348e",
                 null,
                 null,
-                null,
-                "a3f87ddf-7670-40d7-a0c8-23ba64e038a7"
+                "a3f87ddf-7670-40d7-a0c8-23ba64e038a7",
+                "c73219a1-dc8f-47da-b3b9-950039e191d3"
             ],
             "collisions": [
                 15,
@@ -26908,7 +26908,7 @@
                 1,
                 1,
                 1,
-                0,
+                1,
                 1,
                 1,
                 0,
@@ -36780,7 +36780,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36793,7 +36793,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36806,7 +36806,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36819,7 +36819,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36832,7 +36832,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36845,7 +36845,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36858,7 +36858,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36871,7 +36871,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36884,7 +36884,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -36902,7 +36902,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36915,7 +36915,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36928,7 +36928,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36941,7 +36941,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36954,7 +36954,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36967,7 +36967,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36980,7 +36980,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -36993,7 +36993,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37006,7 +37006,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37038,7 +37038,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37051,7 +37051,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37064,7 +37064,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37077,7 +37077,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37090,7 +37090,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37103,7 +37103,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37116,7 +37116,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37129,7 +37129,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37142,7 +37142,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37160,7 +37160,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37173,7 +37173,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37186,7 +37186,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37199,7 +37199,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37212,7 +37212,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37225,7 +37225,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37238,7 +37238,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37251,7 +37251,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37264,7 +37264,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37287,7 +37287,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37300,7 +37300,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37313,7 +37313,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37326,7 +37326,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37339,7 +37339,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37352,7 +37352,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37365,7 +37365,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37378,7 +37378,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37391,7 +37391,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37409,7 +37409,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37422,7 +37422,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37435,7 +37435,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37448,7 +37448,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37461,7 +37461,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37474,7 +37474,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37487,7 +37487,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37500,7 +37500,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37513,7 +37513,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37536,7 +37536,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37549,7 +37549,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37562,7 +37562,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37575,7 +37575,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37588,7 +37588,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37601,7 +37601,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37614,7 +37614,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37627,7 +37627,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37640,7 +37640,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37658,7 +37658,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37671,7 +37671,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37684,7 +37684,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37697,7 +37697,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37710,7 +37710,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37723,7 +37723,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37736,7 +37736,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37749,7 +37749,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37762,7 +37762,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37794,7 +37794,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37807,7 +37807,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37820,7 +37820,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37833,7 +37833,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37846,7 +37846,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37859,7 +37859,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37872,7 +37872,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37885,7 +37885,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37898,7 +37898,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -37916,7 +37916,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37929,7 +37929,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37942,7 +37942,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37955,7 +37955,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37968,7 +37968,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37981,7 +37981,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -37994,7 +37994,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38007,7 +38007,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38020,7 +38020,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38043,7 +38043,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38056,7 +38056,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38069,7 +38069,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38082,7 +38082,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38095,7 +38095,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38108,7 +38108,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38121,7 +38121,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38134,7 +38134,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38147,7 +38147,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38165,7 +38165,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38178,7 +38178,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38191,7 +38191,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38204,7 +38204,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38217,7 +38217,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38230,7 +38230,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38243,7 +38243,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38256,7 +38256,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38269,7 +38269,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38298,7 +38298,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38311,7 +38311,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38324,7 +38324,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38337,7 +38337,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38350,7 +38350,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38363,7 +38363,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38376,7 +38376,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38389,7 +38389,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38402,7 +38402,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38420,7 +38420,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38433,7 +38433,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38446,7 +38446,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38459,7 +38459,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38472,7 +38472,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38485,7 +38485,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38498,7 +38498,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38511,7 +38511,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38524,7 +38524,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38556,7 +38556,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38569,7 +38569,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38582,7 +38582,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38595,7 +38595,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38608,7 +38608,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38621,7 +38621,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38634,7 +38634,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38647,7 +38647,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38660,7 +38660,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38678,7 +38678,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38691,7 +38691,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38704,7 +38704,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38717,7 +38717,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38730,7 +38730,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38743,7 +38743,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38756,7 +38756,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38769,7 +38769,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38782,7 +38782,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38805,7 +38805,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38818,7 +38818,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38831,7 +38831,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38844,7 +38844,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38857,7 +38857,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38870,7 +38870,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38883,7 +38883,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38896,7 +38896,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38909,7 +38909,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -38927,7 +38927,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38940,7 +38940,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38953,7 +38953,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38966,7 +38966,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38979,7 +38979,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -38992,7 +38992,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39005,7 +39005,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39018,7 +39018,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39031,7 +39031,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39054,7 +39054,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39067,7 +39067,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39080,7 +39080,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39093,7 +39093,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39106,7 +39106,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39119,7 +39119,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39132,7 +39132,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39145,7 +39145,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39158,7 +39158,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39176,7 +39176,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39189,7 +39189,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39202,7 +39202,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39215,7 +39215,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39228,7 +39228,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39241,7 +39241,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39254,7 +39254,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39267,7 +39267,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39280,7 +39280,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39312,7 +39312,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39325,7 +39325,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39338,7 +39338,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39351,7 +39351,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39364,7 +39364,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39377,7 +39377,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39390,7 +39390,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39403,7 +39403,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39416,7 +39416,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39434,7 +39434,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39447,7 +39447,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39460,7 +39460,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39473,7 +39473,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39486,7 +39486,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39499,7 +39499,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39512,7 +39512,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39525,7 +39525,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39538,7 +39538,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39561,7 +39561,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39574,7 +39574,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39587,7 +39587,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39600,7 +39600,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39613,7 +39613,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39626,7 +39626,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39639,7 +39639,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39652,7 +39652,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39665,7 +39665,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39683,7 +39683,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39696,7 +39696,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39709,7 +39709,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39722,7 +39722,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39735,7 +39735,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39748,7 +39748,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39761,7 +39761,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39774,7 +39774,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39787,7 +39787,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39818,7 +39818,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39831,7 +39831,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39844,7 +39844,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39857,7 +39857,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39870,7 +39870,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39883,7 +39883,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39896,7 +39896,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39909,7 +39909,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39922,7 +39922,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -39958,7 +39958,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39971,7 +39971,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39984,7 +39984,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -39997,7 +39997,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40010,7 +40010,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40023,7 +40023,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40036,7 +40036,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40049,7 +40049,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40062,7 +40062,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -40089,7 +40089,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40102,7 +40102,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40115,7 +40115,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40128,7 +40128,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40141,7 +40141,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40154,7 +40154,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40167,7 +40167,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40180,7 +40180,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -40193,7 +40193,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 7,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -51359,9 +51359,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 1308,
-        "worldScrollY": 920,
-        "zoom": 250,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

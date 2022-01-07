@@ -49174,7 +49174,7 @@
             "id": "d1b5c84e-93c2-412b-80aa-a1577536cbc8",
             "name": "EnemyPalette_1",
             "colors": [
-                "F890B0",
+                "F8D8D0",
                 "983000",
                 "200040",
                 "200040"
@@ -51359,8 +51359,8 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 137,
-        "worldScrollY": 411,
+        "worldScrollX": 1308,
+        "worldScrollY": 920,
         "zoom": 250,
         "customColorsEnabled": true,
         "sgbEnabled": false,
