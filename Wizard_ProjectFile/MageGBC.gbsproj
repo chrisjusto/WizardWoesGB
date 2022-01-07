@@ -391,8 +391,8 @@
                 0
             ],
             "id": "f0420936-5f39-4e44-b7a7-e5976ef94511",
-            "x": 97.73626373626368,
-            "y": 234.87965100754386,
+            "x": 98.4635364635364,
+            "y": 233.78874191663476,
             "actors": [
                 {
                     "name": "UI_Health",
@@ -8403,8 +8403,8 @@
                 0
             ],
             "id": "1727f3af-169c-4e76-bc6d-7fa9af96cb2b",
-            "x": 624.6337778717713,
-            "y": 411.3865752151527,
+            "x": 629.8837778717713,
+            "y": 413.1365752151527,
             "actors": [
                 {
                     "name": "UI_Health",
@@ -25598,7 +25598,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true,
+                        "__collapse": false,
                         "__comment": false
                     },
                     "children": {
@@ -25666,7 +25666,7 @@
                                                                             {
                                                                                 "command": "EVENT_ACTOR_SET_FRAME",
                                                                                 "args": {
-                                                                                    "actorId": "a0483bca-c6ad-4137-921c-6547cf4f5724",
+                                                                                    "actorId": "cc15341c-7986-4273-b9f1-6b4eec429996",
                                                                                     "frame": {
                                                                                         "type": "variable",
                                                                                         "value": "14"
@@ -44059,7 +44059,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44072,7 +44072,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44085,7 +44085,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         }
                                     ]
@@ -44103,7 +44103,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44116,7 +44116,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44129,7 +44129,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         }
                                     ]
@@ -44147,7 +44147,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44160,7 +44160,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -44173,7 +44173,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         }
                                     ]
@@ -49028,7 +49028,7 @@
             "id": "default-bg-1",
             "name": "Default BG 1",
             "colors": [
-                "F8F8B0",
+                "F8D8D0",
                 "F890B0",
                 "284088",
                 "200040"
@@ -49045,7 +49045,7 @@
             "id": "default-bg-2",
             "name": "Default BG 2",
             "colors": [
-                "F8F8B0",
+                "F8D8D0",
                 "F890B0",
                 "582070",
                 "200040"
@@ -49164,8 +49164,8 @@
             "id": "6537cf22-0c77-49eb-b34a-3294f74bee28",
             "name": "PlayerPalette",
             "colors": [
-                "F8F8B0",
-                "80C0B0",
+                "F8D8D0",
+                "80A0C0",
                 "305098",
                 "305098"
             ]
@@ -49174,7 +49174,7 @@
             "id": "d1b5c84e-93c2-412b-80aa-a1577536cbc8",
             "name": "EnemyPalette_1",
             "colors": [
-                "F890B0",
+                "F8D8D0",
                 "983000",
                 "200040",
                 "200040"
@@ -49184,7 +49184,7 @@
             "id": "97bcf458-9fae-4fb0-b317-7e5083e8ac6d",
             "name": "EnemyPalette_2",
             "colors": [
-                "F8F8B0",
+                "F8D8D0",
                 "F890B0",
                 "983000",
                 "983000"
@@ -49194,7 +49194,7 @@
             "id": "cd89427c-51f2-4081-a2a7-f11a87e9348e",
             "name": "ManUIPalette",
             "colors": [
-                "F8F8B0",
+                "F8D8D0",
                 "305098",
                 "509878",
                 "202850"
@@ -49214,7 +49214,7 @@
             "id": "a3f87ddf-7670-40d7-a0c8-23ba64e038a7",
             "name": "BossMaskPalette",
             "colors": [
-                "F8F8B0",
+                "F8D8D0",
                 "086860",
                 "200040",
                 "200040"
@@ -49224,7 +49224,7 @@
             "id": "c73219a1-dc8f-47da-b3b9-950039e191d3",
             "name": "HealthUIPalette",
             "colors": [
-                "F8F8B0",
+                "F8D8D0",
                 "F890B0",
                 "983000",
                 "983000"
@@ -51359,9 +51359,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 247,
-        "worldScrollY": 71,
-        "zoom": 275,
+        "worldScrollX": 1308,
+        "worldScrollY": 920,
+        "zoom": 250,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
