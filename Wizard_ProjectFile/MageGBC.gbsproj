@@ -7783,9 +7783,9 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "2cee5c10-e8c1-4672-9b53-03a774bf44de",
-                        "loop": true,
-                        "__collapse": true
+                        "musicId": "0625b0ac-2bbf-4b19-b4a7-f896ee40f014",
+                        "loop": false,
+                        "__collapse": false
                     },
                     "id": "25d25ba9-756f-493a-9f4a-258374760766"
                 },
@@ -10047,6 +10047,14 @@
                         ]
                     },
                     "id": "cbc8bb78-eeea-4bde-a6f6-ec4e95abdc1a"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "2cee5c10-e8c1-4672-9b53-03a774bf44de",
+                        "loop": true
+                    },
+                    "id": "bdf737b3-af86-4f27-af66-0a3fa70a111d"
                 }
             ],
             "playerHit1Script": [
@@ -24639,6 +24647,14 @@
                         "__collapse": false
                     },
                     "id": "6cea21ae-3ba8-483b-9e56-7a544ec985ba"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "bc03861d-5baa-474b-a08f-3414b5aa3b10",
+                        "loop": true
+                    },
+                    "id": "3c56b063-0320-4930-95ae-2038eb24b135"
                 }
             ],
             "playerHit1Script": [
@@ -51552,6 +51568,13 @@
     ],
     "music": [
         {
+            "id": "bc03861d-5baa-474b-a08f-3414b5aa3b10",
+            "name": "gameover-music",
+            "filename": "gameover-music.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "2cee5c10-e8c1-4672-9b53-03a774bf44de",
             "name": "gameplay-music",
             "filename": "gameplay-music.uge",
@@ -51562,6 +51585,13 @@
             "id": "dba69b48-5b0c-46be-8108-32520d0146c8",
             "name": "intro",
             "filename": "intro.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "0625b0ac-2bbf-4b19-b4a7-f896ee40f014",
+            "name": "owl-music",
+            "filename": "owl-music.uge",
             "settings": {},
             "type": "uge"
         },
@@ -51749,9 +51779,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 3570,
-        "worldScrollY": 828,
-        "zoom": 600,
+        "worldScrollX": 751,
+        "worldScrollY": 0,
+        "zoom": 207.94268867373466,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -51779,9 +51809,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            248,
-            460,
-            248
+            202,
+            374,
+            202
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
