@@ -3089,8 +3089,8 @@
                 0
             ],
             "id": "52280544-e864-4d75-a88b-99f27ec2dad5",
-            "x": 279.35638243927923,
-            "y": 240.661963309206,
+            "x": 279.66407474697155,
+            "y": 243.73888638612905,
             "actors": [
                 {
                     "name": "Enemy: 1",
@@ -44059,7 +44059,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -44072,7 +44072,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -44085,7 +44085,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -44103,7 +44103,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -44116,7 +44116,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -44129,7 +44129,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -44147,7 +44147,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -44160,7 +44160,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -44173,7 +44173,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP1",
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -49029,7 +49029,7 @@
             "name": "Default BG 1",
             "colors": [
                 "F8F8B0",
-                "F89058",
+                "F890B0",
                 "284088",
                 "200040"
             ],
@@ -49046,7 +49046,7 @@
             "name": "Default BG 2",
             "colors": [
                 "F8F8B0",
-                "F89058",
+                "F890B0",
                 "582070",
                 "200040"
             ],
@@ -49174,7 +49174,7 @@
             "id": "d1b5c84e-93c2-412b-80aa-a1577536cbc8",
             "name": "EnemyPalette_1",
             "colors": [
-                "F89058",
+                "F890B0",
                 "983000",
                 "200040",
                 "200040"
@@ -49185,7 +49185,7 @@
             "name": "EnemyPalette_2",
             "colors": [
                 "F8F8B0",
-                "F89058",
+                "F890B0",
                 "983000",
                 "983000"
             ]
@@ -49225,7 +49225,7 @@
             "name": "HealthUIPalette",
             "colors": [
                 "F8F8B0",
-                "F89058",
+                "F890B0",
                 "983000",
                 "983000"
             ]
@@ -51357,11 +51357,11 @@
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
-        "showCollisions": true,
+        "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 156,
-        "worldScrollY": 127,
-        "zoom": 325,
+        "worldScrollX": 247,
+        "worldScrollY": 71,
+        "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
