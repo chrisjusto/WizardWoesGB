@@ -50238,7 +50238,7 @@
             "name": "Default BG 2",
             "colors": [
                 "F8F8F8",
-                "F800F8",
+                "F8A070",
                 "F81800",
                 "000000"
             ],
@@ -50272,7 +50272,7 @@
             "name": "Default BG 4",
             "colors": [
                 "A8A8A8",
-                "F800F8",
+                "F8A070",
                 "F81800",
                 "000000"
             ],
@@ -50323,8 +50323,8 @@
             "name": "Default Sprites",
             "colors": [
                 "F8F8F8",
-                "F800F8",
-                "907000",
+                "F8A070",
+                "F81800",
                 "602060"
             ],
             "defaultName": "Default Sprites",
@@ -50437,7 +50437,7 @@
             "name": "Spike",
             "colors": [
                 "F8F8F8",
-                "F800F8",
+                "F8A070",
                 "F81800",
                 "000000"
             ]
@@ -52575,9 +52575,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 210,
-        "worldScrollY": 0,
-        "zoom": 200,
+        "worldScrollX": 1603,
+        "worldScrollY": 1815,
+        "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
