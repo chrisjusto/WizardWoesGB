@@ -50387,9 +50387,9 @@
             "name": "ManUIPalette",
             "colors": [
                 "F8F8F8",
-                "58A0B0",
-                "58A0B0",
-                "58A0B0"
+                "0070B8",
+                "0070B8",
+                "0070B8"
             ]
         },
         {
@@ -52575,8 +52575,8 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 1603,
-        "worldScrollY": 1815,
+        "worldScrollX": 2404,
+        "worldScrollY": 1600,
         "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
