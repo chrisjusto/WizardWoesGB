@@ -50222,7 +50222,7 @@
             "colors": [
                 "F8F8F8",
                 "F8F8F8",
-                "0070B8",
+                "58A0B0",
                 "000000"
             ],
             "defaultName": "Default BG 1",
@@ -50357,9 +50357,9 @@
             "name": "PlayerPalette",
             "colors": [
                 "F8F8F8",
+                "58A0B0",
                 "0070B8",
-                "082870",
-                "082870"
+                "0070B8"
             ]
         },
         {
@@ -50387,9 +50387,9 @@
             "name": "ManUIPalette",
             "colors": [
                 "F8F8F8",
-                "0070B8",
-                "0070B8",
-                "0070B8"
+                "58A0B0",
+                "58A0B0",
+                "58A0B0"
             ]
         },
         {
@@ -50397,7 +50397,7 @@
             "name": "BossBackgroundPalette",
             "colors": [
                 "F8F8F8",
-                "60F8E0",
+                "58A0B0",
                 "0070B8",
                 "000000"
             ]
@@ -50407,7 +50407,7 @@
             "name": "BossMaskPalette",
             "colors": [
                 "F8F8F8",
-                "0070B8",
+                "58A0B0",
                 "000000",
                 "000000"
             ]
