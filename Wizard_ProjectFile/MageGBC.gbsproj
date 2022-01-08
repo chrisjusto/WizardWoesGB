@@ -2563,47 +2563,6 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_ACTOR_SET_FRAME",
-                                "args": {
-                                    "actorId": "$self$",
-                                    "frame": {
-                                        "type": "number",
-                                        "value": 0
-                                    }
-                                },
-                                "id": "c61d6a00-0107-423f-8cce-31410ee63272"
-                            },
-                            {
-                                "command": "EVENT_WAIT",
-                                "args": {
-                                    "time": 0.5
-                                },
-                                "id": "23b53566-3273-4e0e-bc9e-021289d2dde7"
-                            },
-                            {
-                                "command": "EVENT_ACTOR_SET_STATE",
-                                "args": {
-                                    "actorId": "$self$",
-                                    "spriteStateId": ""
-                                },
-                                "id": "2f6063f9-e7f0-4538-ac7b-b394003608e3"
-                            },
-                            {
-                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                "args": {
-                                    "actorId": "$self$",
-                                    "speed": 15
-                                },
-                                "id": "584ba91f-a583-4390-8ea5-016342d8c3c7"
-                            },
-                            {
-                                "command": "EVENT_WAIT",
-                                "args": {
-                                    "time": 0.5
-                                },
-                                "id": "3e93ba0f-3b73-4661-b6a9-8a54be19942b"
-                            },
-                            {
                                 "command": "EVENT_MUSIC_PLAY",
                                 "args": {
                                     "musicId": "dba69b48-5b0c-46be-8108-32520d0146c8",
@@ -2750,27 +2709,6 @@
                         ]
                     },
                     "id": "0852ebc7-27ec-486f-9c07-55a527b4fffd"
-                },
-                {
-                    "command": "EVENT_ACTOR_SET_STATE",
-                    "args": {
-                        "actorId": "$self$",
-                        "spriteStateId": "DeathRight",
-                        "__collapse": true
-                    },
-                    "id": "5e670cf7-6d23-41a7-bc34-72279159d2e0"
-                },
-                {
-                    "command": "EVENT_ACTOR_SET_FRAME",
-                    "args": {
-                        "actorId": "$self$",
-                        "frame": {
-                            "type": "number",
-                            "value": 1
-                        },
-                        "__collapse": true
-                    },
-                    "id": "f91cacaf-e3b6-411f-9f3d-3bf8af27d4f1"
                 }
             ],
             "playerHit1Script": [],
@@ -52637,9 +52575,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 1151,
-        "worldScrollY": 200,
-        "zoom": 400,
+        "worldScrollX": 210,
+        "worldScrollY": 0,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
