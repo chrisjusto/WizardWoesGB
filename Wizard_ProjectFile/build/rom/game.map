@@ -367,7 +367,7 @@ Area                                    Addr        Size        Decimal Bytes (A
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      00000006  ___bank_tileset_2                  tileset_2
-     00000006  ___bank_tileset_4                  tileset_4
+     00000006  ___bank_tileset_3                  tileset_3
      00000006  l__HEADER7                      
      00000007  ___bank_cursor_image               cursor_image
      00000007  ___bank_music_track_1__Data        music_track_1__Data
@@ -377,11 +377,11 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000007  ___bank_scene_11_collisions        scene_11_collisions
      00000007  ___bank_script_input_2             script_input_2
      00000007  ___bank_spritesheet_4              spritesheet_4
-     00000007  ___bank_tilemap_13                 tilemap_13
-     00000007  ___bank_tilemap_attr_15            tilemap_attr_15
+     00000007  ___bank_tilemap_7                  tilemap_7
+     00000007  ___bank_tilemap_attr_9             tilemap_attr_9
      00000007  ___bank_tileset_11                 tileset_11
      00000007  ___bank_tileset_21                 tileset_21
-     00000007  ___bank_tileset_3                  tileset_3
+     00000007  ___bank_tileset_4                  tileset_4
      00000007  ___bank_tileset_5                  tileset_5
      00000007  l__HEADER2                      
      00000008  ___bank_scene_13_collisions        scene_13_collisions
@@ -394,19 +394,19 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000008  ___bank_scene_9_collisions         scene_9_collisions
      00000008  ___bank_spritesheet_18             spritesheet_18
      00000008  ___bank_spritesheet_2              spritesheet_2
-     00000008  ___bank_tilemap_1                  tilemap_1
+     00000008  ___bank_tilemap_10                 tilemap_10
      00000008  ___bank_tilemap_11                 tilemap_11
-     00000008  ___bank_tilemap_12                 tilemap_12
+     00000008  ___bank_tilemap_13                 tilemap_13
+     00000008  ___bank_tilemap_14                 tilemap_14
+     00000008  ___bank_tilemap_2                  tilemap_2
      00000008  ___bank_tilemap_3                  tilemap_3
-     00000008  ___bank_tilemap_4                  tilemap_4
+     00000008  ___bank_tilemap_5                  tilemap_5
      00000008  ___bank_tilemap_6                  tilemap_6
-     00000008  ___bank_tilemap_7                  tilemap_7
-     00000008  ___bank_tilemap_8                  tilemap_8
      00000008  ___bank_tilemap_9                  tilemap_9
-     00000008  ___bank_tilemap_attr_10            tilemap_attr_10
      00000008  ___bank_tilemap_attr_11            tilemap_attr_11
+     00000008  ___bank_tilemap_attr_13            tilemap_attr_13
+     00000008  ___bank_tilemap_attr_15            tilemap_attr_15
      00000008  ___bank_tilemap_attr_5             tilemap_attr_5
-     00000008  ___bank_tilemap_attr_9             tilemap_attr_9
      00000008  l__HEADER3                      
      00000009  ___bank_scene_0_collisions         scene_0_collisions
      00000009  ___bank_scene_10_collisions        scene_10_collisions
@@ -440,18 +440,18 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000009  ___bank_spritesheet_12             spritesheet_12
      00000009  ___bank_spritesheet_14             spritesheet_14
      00000009  ___bank_tilemap_0                  tilemap_0
-     00000009  ___bank_tilemap_10                 tilemap_10
-     00000009  ___bank_tilemap_14                 tilemap_14
+     00000009  ___bank_tilemap_1                  tilemap_1
+     00000009  ___bank_tilemap_12                 tilemap_12
      00000009  ___bank_tilemap_15                 tilemap_15
-     00000009  ___bank_tilemap_2                  tilemap_2
-     00000009  ___bank_tilemap_5                  tilemap_5
+     00000009  ___bank_tilemap_4                  tilemap_4
+     00000009  ___bank_tilemap_8                  tilemap_8
      00000009  ___bank_tilemap_attr_0             tilemap_attr_0
      00000009  ___bank_tilemap_attr_1             tilemap_attr_1
+     00000009  ___bank_tilemap_attr_10            tilemap_attr_10
      00000009  ___bank_tilemap_attr_12            tilemap_attr_12
-     00000009  ___bank_tilemap_attr_13            tilemap_attr_13
-     00000009  ___bank_tilemap_attr_14            tilemap_attr_14
-     00000009  ___bank_tilemap_attr_3             tilemap_attr_3
-     00000009  ___bank_tilemap_attr_6             tilemap_attr_6
+     00000009  ___bank_tilemap_attr_16            tilemap_attr_16
+     00000009  ___bank_tilemap_attr_4             tilemap_attr_4
+     00000009  ___bank_tilemap_attr_7             tilemap_attr_7
      00000009  ___bank_tilemap_attr_8             tilemap_attr_8
      00000009  ___bank_tileset_25                 tileset_25
      00000009  ___bank_tileset_6                  tileset_6
@@ -569,11 +569,11 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000000A  ___bank_spritesheet_7              spritesheet_7
      0000000A  ___bank_spritesheet_8              spritesheet_8
      0000000A  ___bank_spritesheet_9              spritesheet_9
-     0000000A  ___bank_tilemap_attr_16            tilemap_attr_16
+     0000000A  ___bank_tilemap_attr_14            tilemap_attr_14
      0000000A  ___bank_tilemap_attr_17            tilemap_attr_17
      0000000A  ___bank_tilemap_attr_2             tilemap_attr_2
-     0000000A  ___bank_tilemap_attr_4             tilemap_attr_4
-     0000000A  ___bank_tilemap_attr_7             tilemap_attr_7
+     0000000A  ___bank_tilemap_attr_3             tilemap_attr_3
+     0000000A  ___bank_tilemap_attr_6             tilemap_attr_6
      0000000A  ___bank_tileset_10                 tileset_10
      0000000A  ___bank_tileset_12                 tileset_12
      0000000A  ___bank_tileset_13                 tileset_13
@@ -2249,16 +2249,16 @@ _CODE_7                             00074000    00004000 =       16384. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00076068  ___func_tilemap_13                 tilemap_13
-     00076068  _tilemap_13                        tilemap_13
-     000764A0  ___func_tilemap_attr_15            tilemap_attr_15
-     000764A0  _tilemap_attr_15                   tilemap_attr_15
+     00076068  ___func_tilemap_7                  tilemap_7
+     00076068  _tilemap_7                         tilemap_7
+     000764A0  ___func_tilemap_attr_9             tilemap_attr_9
+     000764A0  _tilemap_attr_9                    tilemap_attr_9
      000768D8  ___func_tileset_11                 tileset_11
      000768D8  _tileset_11                        tileset_11
      00076E1A  ___func_tileset_21                 tileset_21
      00076E1A  _tileset_21                        tileset_21
-     0007725C  ___func_tileset_3                  tileset_3
-     0007725C  _tileset_3                         tileset_3
+     0007725C  ___func_tileset_4                  tileset_4
+     0007725C  _tileset_4                         tileset_4
      0007770E  ___func_tileset_5                  tileset_5
      0007770E  _tileset_5                         tileset_5
 
@@ -2278,8 +2278,8 @@ _CODE_6                             00064000    00004000 =       16384. bytes (R
      00065D6C  _script_s11t0_interact             script_s11t0_interact
      00065D9C  ___func_tileset_2                  tileset_2
      00065D9C  _tileset_2                         tileset_2
-     0006741E  ___func_tileset_4                  tileset_4
-     0006741E  _tileset_4                         tileset_4
+     0006741E  ___func_tileset_3                  tileset_3
+     0006741E  _tileset_3                         tileset_3
 ASxxxx Linker V03.00 + NoICE + sdld,  page 67.
 Hexadecimal  [32-Bits]
 
@@ -2566,16 +2566,16 @@ _CODE_10                            000A4000    00003FFD =       16381. bytes (R
      000A6F56  _spritesheet_9_animations          spritesheet_9
      000A6F66  _spritesheet_9_animations_lookup   spritesheet_9
      000A6F68  _spritesheet_9                     spritesheet_9
-     000A6F7B  ___func_tilemap_attr_16            tilemap_attr_16
-     000A6F7B  _tilemap_attr_16                   tilemap_attr_16
+     000A6F7B  ___func_tilemap_attr_14            tilemap_attr_14
+     000A6F7B  _tilemap_attr_14                   tilemap_attr_14
      000A70E3  ___func_tilemap_attr_17            tilemap_attr_17
      000A70E3  _tilemap_attr_17                   tilemap_attr_17
      000A724B  ___func_tilemap_attr_2             tilemap_attr_2
      000A724B  _tilemap_attr_2                    tilemap_attr_2
-     000A73B3  ___func_tilemap_attr_4             tilemap_attr_4
-     000A73B3  _tilemap_attr_4                    tilemap_attr_4
-     000A751B  ___func_tilemap_attr_7             tilemap_attr_7
-     000A751B  _tilemap_attr_7                    tilemap_attr_7
+     000A73B3  ___func_tilemap_attr_3             tilemap_attr_3
+     000A73B3  _tilemap_attr_3                    tilemap_attr_3
+     000A751B  ___func_tilemap_attr_6             tilemap_attr_6
+     000A751B  _tilemap_attr_6                    tilemap_attr_6
      000A7683  ___func_tileset_10                 tileset_10
      000A7683  _tileset_10                        tileset_10
      000A76E5  ___func_tileset_12                 tileset_12
@@ -2702,30 +2702,30 @@ _CODE_9                             00094000    00004000 =       16384. bytes (R
      00096141  _spritesheet_14                    spritesheet_14
      00096154  ___func_tilemap_0                  tilemap_0
      00096154  _tilemap_0                         tilemap_0
-     000962BC  ___func_tilemap_10                 tilemap_10
-     000962BC  _tilemap_10                        tilemap_10
-     00096424  ___func_tilemap_14                 tilemap_14
-     00096424  _tilemap_14                        tilemap_14
+     000962BC  ___func_tilemap_1                  tilemap_1
+     000962BC  _tilemap_1                         tilemap_1
+     00096424  ___func_tilemap_12                 tilemap_12
+     00096424  _tilemap_12                        tilemap_12
      0009658C  ___func_tilemap_15                 tilemap_15
      0009658C  _tilemap_15                        tilemap_15
-     000966F4  ___func_tilemap_2                  tilemap_2
-     000966F4  _tilemap_2                         tilemap_2
-     0009685C  ___func_tilemap_5                  tilemap_5
-     0009685C  _tilemap_5                         tilemap_5
+     000966F4  ___func_tilemap_4                  tilemap_4
+     000966F4  _tilemap_4                         tilemap_4
+     0009685C  ___func_tilemap_8                  tilemap_8
+     0009685C  _tilemap_8                         tilemap_8
      000969C4  ___func_tilemap_attr_0             tilemap_attr_0
      000969C4  _tilemap_attr_0                    tilemap_attr_0
      00096B2C  ___func_tilemap_attr_1             tilemap_attr_1
      00096B2C  _tilemap_attr_1                    tilemap_attr_1
-     00096C94  ___func_tilemap_attr_12            tilemap_attr_12
-     00096C94  _tilemap_attr_12                   tilemap_attr_12
-     00096DFC  ___func_tilemap_attr_13            tilemap_attr_13
-     00096DFC  _tilemap_attr_13                   tilemap_attr_13
-     000970CC  ___func_tilemap_attr_14            tilemap_attr_14
-     000970CC  _tilemap_attr_14                   tilemap_attr_14
-     0009739C  ___func_tilemap_attr_3             tilemap_attr_3
-     0009739C  _tilemap_attr_3                    tilemap_attr_3
-     0009766C  ___func_tilemap_attr_6             tilemap_attr_6
-     0009766C  _tilemap_attr_6                    tilemap_attr_6
+     00096C94  ___func_tilemap_attr_10            tilemap_attr_10
+     00096C94  _tilemap_attr_10                   tilemap_attr_10
+     00096DFC  ___func_tilemap_attr_12            tilemap_attr_12
+     00096DFC  _tilemap_attr_12                   tilemap_attr_12
+     000970CC  ___func_tilemap_attr_16            tilemap_attr_16
+     000970CC  _tilemap_attr_16                   tilemap_attr_16
+     0009739C  ___func_tilemap_attr_4             tilemap_attr_4
+     0009739C  _tilemap_attr_4                    tilemap_attr_4
+     0009766C  ___func_tilemap_attr_7             tilemap_attr_7
+     0009766C  _tilemap_attr_7                    tilemap_attr_7
      0009793C  ___func_tilemap_attr_8             tilemap_attr_8
      0009793C  _tilemap_attr_8                    tilemap_attr_8
      00097C0C  ___func_tileset_25                 tileset_25
@@ -2791,15 +2791,15 @@ _CODE_8                             00084000    00003FFE =       16382. bytes (R
      00085935  _spritesheet_2_animations          spritesheet_2
      00085945  _spritesheet_2_animations_lookup   spritesheet_2
      00085947  _spritesheet_2                     spritesheet_2
-     0008595A  ___func_tilemap_1                  tilemap_1
-     0008595A  _tilemap_1                         tilemap_1
+     0008595A  ___func_tilemap_10                 tilemap_10
+     0008595A  _tilemap_10                        tilemap_10
      00085C2A  ___func_tilemap_11                 tilemap_11
      00085C2A  _tilemap_11                        tilemap_11
-     00085EFA  ___func_tilemap_12                 tilemap_12
-     00085EFA  _tilemap_12                        tilemap_12
-     000861CA  ___func_tilemap_3                  tilemap_3
-     000861CA  _tilemap_3                         tilemap_3
-     00086506  ___func_tilemap_4                  tilemap_4
+     00085F66  ___func_tilemap_13                 tilemap_13
+     00085F66  _tilemap_13                        tilemap_13
+     00086248  ___func_tilemap_14                 tilemap_14
+     00086248  _tilemap_14                        tilemap_14
+     00086518  ___func_tilemap_2                  tilemap_2
 ASxxxx Linker V03.00 + NoICE + sdld,  page 77.
 Hexadecimal  [32-Bits]
 
@@ -2809,23 +2809,23 @@ _CODE_8                             00084000    00003FFE =       16382. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00086506  _tilemap_4                         tilemap_4
-     000867D6  ___func_tilemap_6                  tilemap_6
-     000867D6  _tilemap_6                         tilemap_6
-     00086AA6  ___func_tilemap_7                  tilemap_7
-     00086AA6  _tilemap_7                         tilemap_7
-     00086D88  ___func_tilemap_8                  tilemap_8
-     00086D88  _tilemap_8                         tilemap_8
-     00087058  ___func_tilemap_9                  tilemap_9
-     00087058  _tilemap_9                         tilemap_9
-     000873B4  ___func_tilemap_attr_10            tilemap_attr_10
-     000873B4  _tilemap_attr_10                   tilemap_attr_10
-     00087684  ___func_tilemap_attr_11            tilemap_attr_11
-     00087684  _tilemap_attr_11                   tilemap_attr_11
-     000879E0  ___func_tilemap_attr_5             tilemap_attr_5
-     000879E0  _tilemap_attr_5                    tilemap_attr_5
-     00087D1C  ___func_tilemap_attr_9             tilemap_attr_9
-     00087D1C  _tilemap_attr_9                    tilemap_attr_9
+     00086518  _tilemap_2                         tilemap_2
+     000867E8  ___func_tilemap_3                  tilemap_3
+     000867E8  _tilemap_3                         tilemap_3
+     00086B44  ___func_tilemap_5                  tilemap_5
+     00086B44  _tilemap_5                         tilemap_5
+     00086E14  ___func_tilemap_6                  tilemap_6
+     00086E14  _tilemap_6                         tilemap_6
+     000870E4  ___func_tilemap_9                  tilemap_9
+     000870E4  _tilemap_9                         tilemap_9
+     000873B4  ___func_tilemap_attr_11            tilemap_attr_11
+     000873B4  _tilemap_attr_11                   tilemap_attr_11
+     00087684  ___func_tilemap_attr_13            tilemap_attr_13
+     00087684  _tilemap_attr_13                   tilemap_attr_13
+     000879C0  ___func_tilemap_attr_15            tilemap_attr_15
+     000879C0  _tilemap_attr_15                   tilemap_attr_15
+     00087CA2  ___func_tilemap_attr_5             tilemap_attr_5
+     00087CA2  _tilemap_attr_5                    tilemap_attr_5
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 78.
 Hexadecimal  [32-Bits]

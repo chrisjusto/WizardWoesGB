@@ -1883,7 +1883,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -2097,7 +2097,7 @@
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
                                     "sceneId": "fb2614c6-f7e6-4e51-8362-9eb2a708d3c8",
-                                    "x": 2,
+                                    "x": 1,
                                     "y": 15,
                                     "direction": "right",
                                     "fadeSpeed": "2",
@@ -26867,7 +26867,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "1-10b",
+            "name": "Level 1-10b",
             "backgroundId": "4cd12b68-f44d-438b-823d-7cb9a3afc2eb",
             "width": 46,
             "height": 18,
@@ -54830,9 +54830,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 2513,
-        "worldScrollY": 1338,
-        "zoom": 275,
+        "worldScrollX": 527,
+        "worldScrollY": 71,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
