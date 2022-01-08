@@ -2154,7 +2154,7 @@
             "backgroundId": "5729d7da-601a-46af-855f-f38c9b51d2c9",
             "width": 20,
             "height": 18,
-            "type": "PLATFORM",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [
                 "6537cf22-0c77-49eb-b34a-3294f74bee28",
@@ -5562,8 +5562,8 @@
                 0
             ],
             "id": "15658b9a-6e02-4e6c-ae57-861859e01eaf",
-            "x": 454.6469720030765,
-            "y": 240.3941604866881,
+            "x": 453.6469720030765,
+            "y": 242.3941604866881,
             "actors": [
                 {
                     "name": "UI_Health",
@@ -50284,7 +50284,7 @@
             "colors": [
                 "F8F8F8",
                 "F8F8F8",
-                "0090C8",
+                "0070B8",
                 "000000"
             ],
             "defaultName": "Default BG 1",
@@ -50300,8 +50300,8 @@
             "name": "Default BG 2",
             "colors": [
                 "F8F8F8",
-                "F888F8",
-                "F85000",
+                "F800F8",
+                "F81800",
                 "000000"
             ],
             "defaultName": "Default BG 2",
@@ -50316,9 +50316,9 @@
             "id": "default-bg-3",
             "name": "Default BG 3",
             "colors": [
-                "F8D8D0",
-                "F890B0",
-                "582070",
+                "A8A8A8",
+                "F8A070",
+                "602060",
                 "000000"
             ],
             "defaultName": "Default BG 3",
@@ -50333,9 +50333,9 @@
             "id": "default-bg-4",
             "name": "Default BG 4",
             "colors": [
-                "F8F8F8",
-                "F888F8",
-                "F85000",
+                "A8A8A8",
+                "F800F8",
+                "F81800",
                 "000000"
             ],
             "defaultName": "Default BG 4",
@@ -50352,7 +50352,7 @@
             "colors": [
                 "F8F8F8",
                 "F8F8F8",
-                "082870",
+                "5030B0",
                 "000000"
             ],
             "defaultName": "Default BG 5",
@@ -50367,9 +50367,9 @@
             "id": "default-bg-6",
             "name": "Default BG 6",
             "colors": [
-                "F8D8B0",
-                "78C078",
-                "688840",
+                "F8F8F8",
+                "58A0B0",
+                "0070B8",
                 "000000"
             ],
             "defaultName": "Default BG 6",
@@ -50384,10 +50384,10 @@
             "id": "default-sprite",
             "name": "Default Sprites",
             "colors": [
-                "F8F0E0",
-                "D88078",
-                "B05010",
-                "301850"
+                "F8F8F8",
+                "F800F8",
+                "907000",
+                "602060"
             ],
             "defaultName": "Default Sprites",
             "defaultColors": [
@@ -50401,7 +50401,7 @@
             "id": "default-ui",
             "name": "Default UI",
             "colors": [
-                "F0F8C0",
+                "F8F8F8",
                 "80A0C8",
                 "404878",
                 "404878"
@@ -50419,7 +50419,7 @@
             "name": "PlayerPalette",
             "colors": [
                 "F8F8F8",
-                "0090C8",
+                "0070B8",
                 "082870",
                 "082870"
             ]
@@ -50429,9 +50429,9 @@
             "name": "Enemey_RatPalette",
             "colors": [
                 "F8F8F8",
-                "F85000",
-                "F85000",
-                "F888F8"
+                "F81800",
+                "F81800",
+                "F8A070"
             ]
         },
         {
@@ -50439,8 +50439,8 @@
             "name": "Enemy_BirdPalette",
             "colors": [
                 "F8F8F8",
-                "F85000",
-                "F85000",
+                "F81800",
+                "F81800",
                 "000000"
             ]
         },
@@ -50449,9 +50449,9 @@
             "name": "ManUIPalette",
             "colors": [
                 "F8F8F8",
-                "0090C8",
-                "0090C8",
-                "0090C8"
+                "0070B8",
+                "0070B8",
+                "0070B8"
             ]
         },
         {
@@ -50460,7 +50460,7 @@
             "colors": [
                 "F8F8F8",
                 "60F8E0",
-                "0090C8",
+                "0070B8",
                 "000000"
             ]
         },
@@ -50469,7 +50469,7 @@
             "name": "BossMaskPalette",
             "colors": [
                 "F8F8F8",
-                "0090C8",
+                "0070B8",
                 "000000",
                 "000000"
             ]
@@ -50479,9 +50479,9 @@
             "name": "HealthUIPalette",
             "colors": [
                 "F8F8F8",
-                "F85000",
-                "F85000",
-                "F85000"
+                "F81800",
+                "F81800",
+                "F81800"
             ]
         },
         {
@@ -50489,7 +50489,7 @@
             "name": "Enemy_GoblinPalette",
             "colors": [
                 "F8F8F8",
-                "F85000",
+                "F81800",
                 "000000",
                 "000000"
             ]
@@ -50499,8 +50499,8 @@
             "name": "Spike",
             "colors": [
                 "F8F8F8",
-                "F888F8",
-                "F85000",
+                "F800F8",
+                "F81800",
                 "000000"
             ]
         }
@@ -52637,9 +52637,9 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 49,
-        "zoom": 107.94268867373466,
+        "worldScrollX": 1151,
+        "worldScrollY": 200,
+        "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
