@@ -5813,9 +5813,12 @@
                     "height": 1,
                     "script": [
                         {
-                            "command": "EVENT_MUSIC_STOP",
-                            "args": {},
-                            "id": "6990901e-06a5-470e-b707-0c92f60adb67"
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "11dc6a3d-be35-4cc0-9b4b-90871fb9c93e",
+                                "loop": true
+                            },
+                            "id": "02cb6b19-055a-4798-b177-9348a509d620"
                         }
                     ],
                     "leaveScript": []
@@ -28499,11 +28502,12 @@
                     "id": "7724b765-cb95-4cfa-ad2b-6f8a29e4c57f"
                 },
                 {
-                    "command": "EVENT_MUSIC_STOP",
+                    "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "__collapse": true
+                        "musicId": "11dc6a3d-be35-4cc0-9b4b-90871fb9c93e",
+                        "loop": true
                     },
-                    "id": "78810103-d20b-4a68-9107-773a5f55aec1"
+                    "id": "1eba8aac-9cd0-4b16-9205-1671937aaea3"
                 }
             ],
             "playerHit1Script": [],
@@ -55102,6 +55106,13 @@
         }
     ],
     "music": [
+        {
+            "id": "11dc6a3d-be35-4cc0-9b4b-90871fb9c93e",
+            "name": "drone",
+            "filename": "drone.uge",
+            "settings": {},
+            "type": "uge"
+        },
         {
             "id": "bc03861d-5baa-474b-a08f-3414b5aa3b10",
             "name": "gameover-music",
