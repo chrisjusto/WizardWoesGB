@@ -13910,7 +13910,7 @@
                                                                                                             "actorId": "$self$",
                                                                                                             "x": 0,
                                                                                                             "y": 0,
-                                                                                                            "otherActorId": "$self$",
+                                                                                                            "otherActorId": "player",
                                                                                                             "direction": "right",
                                                                                                             "angle": 0,
                                                                                                             "angleVariable": "0",
@@ -13923,7 +13923,7 @@
                                                                                                             "collisionMask": [
                                                                                                                 "1"
                                                                                                             ],
-                                                                                                            "__collapse": true
+                                                                                                            "__collapse": false
                                                                                                         },
                                                                                                         "id": "8a392075-dd77-4f37-ac3a-27cc9aba84bd"
                                                                                                     },
@@ -40188,7 +40188,8 @@
             "height": 36,
             "imageWidth": 160,
             "imageHeight": 288,
-            "filename": "LevelC_1-5.png"
+            "filename": "LevelC_1-5.png",
+            "tileColors": []
         },
         {
             "id": "26a32c80-2594-4a20-8129-24f753ffed69",
@@ -40197,7 +40198,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "LevelC_1-6.png"
+            "filename": "LevelC_1-6.png",
+            "tileColors": []
         },
         {
             "id": "26e0db53-daf6-49b9-a3f6-a4e829efd0cc",
@@ -40206,7 +40208,8 @@
             "height": 36,
             "imageWidth": 160,
             "imageHeight": 288,
-            "filename": "LevelC_1-7.png"
+            "filename": "LevelC_1-7.png",
+            "tileColors": []
         },
         {
             "id": "da9ac8df-58d4-488b-bde7-9f88dff5d260",
@@ -40215,7 +40218,8 @@
             "height": 36,
             "imageWidth": 160,
             "imageHeight": 288,
-            "filename": "LevelC_1-8.png"
+            "filename": "LevelC_1-8.png",
+            "tileColors": []
         },
         {
             "id": "767dc544-ff91-4084-93ab-3eff2d98f138",
@@ -53708,8 +53712,8 @@
                 {
                     "id": "c8063da2-5b00-4af5-9f24-b4dc3b551f93",
                     "name": "",
-                    "animationType": "fixed",
-                    "flipLeft": false,
+                    "animationType": "multi",
+                    "flipLeft": true,
                     "animations": [
                         {
                             "id": "0039d59d-021b-471b-bdaa-444d694781df",
@@ -59342,7 +59346,7 @@
         "startDirection": "right",
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 28,
+        "worldScrollX": 0,
         "worldScrollY": 84,
         "zoom": 75,
         "customColorsEnabled": true,
