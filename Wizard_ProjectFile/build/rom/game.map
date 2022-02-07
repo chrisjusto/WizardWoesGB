@@ -1089,9 +1089,9 @@ Area                                    Addr        Size        Decimal Bytes (A
      000018FB  l__DATA                         
      00002000  _rROMB0                            
      000027A6  l__HOME                         
-     00002947  l__CODE_4                       
+     00002940  l__CODE_4                       
      000029A6  l__CODE_1                       
-     00002ADB  l__CODE_3                       
+     00002AD8  l__CODE_3                       
      00002E8F  l__CODE_14                      
      00003000  _rROMB1                            
      000035A9  s__BASE                         
@@ -1172,6 +1172,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FF24  _NR50_REG                          
      0000FF25  _NR51_REG                          
      0000FF26  _NR52_REG                          
+     0000FF30  _AUD3WAVE                          
      0000FF30  _PCM_SAMPLE                        
      0000FF30  __AUD3WAVERAM                      
      0000FF40  _LCDC_REG                          
@@ -1196,7 +1197,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FF56  _RP_REG                            
      0000FF68  _BCPS_REG                          
      0000FF69  _BCPD_REG                          
-     0000FF6A  _OCPS_REG                          
 ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
 Hexadecimal  [32-Bits]
 
@@ -1206,6 +1206,7 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
+     0000FF6A  _OCPS_REG                          
      0000FF6B  _OCPD_REG                          
      0000FF70  _SVBK_REG                          
      0000FF76  _PCM12_REG                         
@@ -1227,7 +1228,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      000C4000  s__CODE_12                      
      000D4000  s__CODE_13                      
      000E4000  s__CODE_14                      
-
 ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
 Hexadecimal  [32-Bits]
 
@@ -1998,7 +1998,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_4                             00044000    00002947 =       10567. bytes (REL,CON)
+_CODE_4                             00044000    00002940 =       10560. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2044,41 +2044,41 @@ _CODE_4                             00044000    00002947 =       10567. bytes (R
      00045A47  _signature                         load_save
      00045A4B  _save_points                       load_save
      00045A8F  _data_slot_address                 load_save
-     00045AE7  _data_save                         load_save
-     00045B9E  _data_load                         load_save
-     00045C71  _data_clear                        load_save
-     00045C96  _data_peek                         load_save
-     00045D34  _sound_init                        music_manager
-     00045D65  _music_init                        music_manager
-     00045DA1  _music_events_poll                 music_manager
-     00045DCB  _music_stop                        music_manager
+     00045AF3  _data_save                         load_save
+     00045BAA  _data_load                         load_save
+     00045C7D  _data_clear                        load_save
+     00045CA2  _data_peek                         load_save
+     00045D40  _sound_init                        music_manager
+     00045D71  _music_init                        music_manager
+     00045DAD  _music_events_poll                 music_manager
+     00045DD7  _music_stop                        music_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 57.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_4                             00044000    00002947 =       10567. bytes (REL,CON)
+_CODE_4                             00044000    00002940 =       10560. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00045DDE  _wave_play                         music_manager
-     00045E1C  _FX_REG_SIZES                      music_manager
-     00045E21  _FX_ADDR_LO                        music_manager
-     00045E26  _channel_masks                     music_manager
-     00045E2B  _sound_play                        music_manager
-     00045EAC  _palette_init                      palette
-     00045EE5  _CGBZeroPalette                    palette
-     00045EFA  _projectiles_init                  projectiles
-     00045F3A  _projectile_launch                 projectiles
-     0004631F  _set_sample                        sample_player
-     00046358  _set_sgb_border                    sgb_border
-     0004659C  _SIO_init                          sio
-     000465C5  _trigger_reset                     trigger
-     000465D5  _trigger_interact                  trigger
-     00046615  _trigger_activate_at               trigger
-     00046660  _trigger_activate_at_intersectio   trigger
-     000467A2  _trigger_at_intersection           trigger
-     000468B7  _trigger_at_tile                   trigger
+     00045DEA  _wave_play                         music_manager
+     00045E28  _FX_REG_SIZES                      music_manager
+     00045E2D  _FX_ADDR_LO                        music_manager
+     00045E32  _channel_masks                     music_manager
+     00045E37  _sound_play                        music_manager
+     00045EB8  _palette_init                      palette
+     00045EF1  _CGBZeroPalette                    palette
+     00045F06  _projectiles_init                  projectiles
+     00045F46  _projectile_launch                 projectiles
+     0004632B  _set_sample                        sample_player
+     00046364  _set_sgb_border                    sgb_border
+     00046595  _SIO_init                          sio
+     000465BE  _trigger_reset                     trigger
+     000465CE  _trigger_interact                  trigger
+     0004660E  _trigger_activate_at               trigger
+     00046659  _trigger_activate_at_intersectio   trigger
+     0004679B  _trigger_at_intersection           trigger
+     000468B0  _trigger_at_tile                   trigger
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 58.
 Hexadecimal  [32-Bits]
@@ -3683,7 +3683,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_3                             00034000    00002ADB =       10971. bytes (REL,CON)
+_CODE_3                             00034000    00002AD8 =       10968. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -3692,13 +3692,13 @@ _CODE_3                             00034000    00002ADB =       10971. bytes (R
      0003475D  _logo_init                         logo
      0003476D  _logo_update                       logo
      0003476E  _platform_init                     platform
-     00034925  _platform_update                   platform
-     00035956  _pointnclick_init                  pointnclick
-     0003598F  _pointnclick_update                pointnclick
-     00035C9B  _shmup_init                        shmup
-     00035D37  _shmup_update                      shmup
-     000363CD  _topdown_init                      topdown
-     00036464  _topdown_update                    topdown
+     00034922  _platform_update                   platform
+     00035953  _pointnclick_init                  pointnclick
+     0003598C  _pointnclick_update                pointnclick
+     00035C98  _shmup_init                        shmup
+     00035D34  _shmup_update                      shmup
+     000363CA  _topdown_init                      topdown
+     00036461  _topdown_update                    topdown
 ASxxxx Linker V03.00 + NoICE + sdld,  page 94.
 Hexadecimal  [32-Bits]
 
@@ -3712,1392 +3712,1392 @@ _HEADER_LCD0                        00000000    00000003 =           3. bytes (A
 
 Files Linked                              [ module(s) ]
 
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
                                           [ Runtime ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/absolute.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/absolute.rel
                                           [ absolute ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/actor.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/actor.rel
                                           [ actor ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/bankdata.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/bankdata.rel
                                           [ bankdata ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/bootstrap.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/bootstrap.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/camera.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/camera.rel
                                           [ camera ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/core.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/core.rel
                                           [ core ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/crash_handler.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/crash_handler.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/data_manager.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/data_manager.rel
                                           [ data_manager ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/events.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/events.rel
                                           [ events ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/fade_manager.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/fade_manager.rel
                                           [ fade_manager ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/flasher_s.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/flasher_s.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/flasher.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/flasher.rel
                                           [ flasher ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/game_time.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/game_time.rel
                                           [ game_time ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/input.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/input.rel
                                           [ input ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/interrupt_sio.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/interrupt_sio.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/interrupt_timer.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/interrupt_timer.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/interrupts.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/interrupts.rel
                                           [ interrupts ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/load_save.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/load_save.rel
                                           [ load_save ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/math.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/math.rel
                                           [ math ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/music_manager.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/music_manager.rel
                                           [ music_manager ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/oam_utils.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/oam_utils.rel
                                           [ OAM_utils ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/palette.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/palette.rel
                                           [ palette ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/parallax.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/parallax.rel
                                           [ parallax ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/projectiles.rel
                                           [ projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/sample_player.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/sample_player.rel
                                           [ sample_player ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scroll_a.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scroll_a.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scroll.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scroll.rel
                                           [ scroll ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/set_tile_submap.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/set_tile_submap.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/sgb_border.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/sgb_border.rel
                                           [ sgb_border ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/sio.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/sio.rel
                                           [ sio ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/states_caller.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/states_caller.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/system.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/system.rel
                                           [ system ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/trigger.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/trigger.rel
                                           [ trigger ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/ui_a.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/ui_a.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/ui.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/ui.rel
                                           [ ui ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_actor.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_actor.rel
                                           [ vm_actor ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_camera.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_camera.rel
                                           [ vm_camera ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_gameboy.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_gameboy.rel
                                           [ vm_gameboy ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_instructions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_instructions.rel
                                           [ vm_instructions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_load_save.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_load_save.rel
                                           [ vm_load_save ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_math.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_math.rel
                                           [ vm_math ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_music.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_music.rel
                                           [ vm_music ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_palette.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_palette.rel
                                           [ vm_palette ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_projectiles.rel
                                           [ vm_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_rtc.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_rtc.rel
                                           [ vm_rtc ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_scene.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_scene.rel
                                           [ vm_scene ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_sgb.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_sgb.rel
                                           [ vm_sgb ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_sio.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_sio.rel
                                           [ vm_sio ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_ui_a.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_ui_a.rel
                                           [ vm_ui_a ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm_ui.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm_ui.rel
                                           [ vm_ui ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/vm.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/vm.rel
                                           [ vm ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_0.rel
                                           [ background_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_1.rel
                                           [ background_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_10.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_10.rel
                                           [ background_10 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_11.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_11.rel
                                           [ background_11 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_12.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_12.rel
                                           [ background_12 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_13.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_13.rel
                                           [ background_13 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_14.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_14.rel
                                           [ background_14 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_15.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_15.rel
                                           [ background_15 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_16.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_16.rel
                                           [ background_16 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_17.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_17.rel
                                           [ background_17 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_18.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_18.rel
                                           [ background_18 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_19.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_19.rel
                                           [ background_19 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_2.rel
                                           [ background_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_20.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_20.rel
                                           [ background_20 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_21.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_21.rel
                                           [ background_21 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_22.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_22.rel
                                           [ background_22 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_23.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_23.rel
                                           [ background_23 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_24.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_24.rel
                                           [ background_24 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_25.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_25.rel
                                           [ background_25 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_26.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_26.rel
                                           [ background_26 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_27.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_27.rel
                                           [ background_27 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_28.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_28.rel
                                           [ background_28 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_29.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_29.rel
                                           [ background_29 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_3.rel
                                           [ background_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_30.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_30.rel
                                           [ background_30 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_31.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_31.rel
                                           [ background_31 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_32.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_32.rel
                                           [ background_32 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_4.rel
                                           [ background_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_5.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_5.rel
                                           [ background_5 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_6.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_6.rel
                                           [ background_6 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_7.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_7.rel
                                           [ background_7 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_8.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_8.rel
                                           [ background_8 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/background_9.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/background_9.rel
                                           [ background_9 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/cursor_image.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/cursor_image.rel
                                           [ cursor_image ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/font_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/font_0.rel
                                           [ font_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/frame_image.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/frame_image.rel
                                           [ frame_image ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/music_track_0__Data.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/music_track_0__Data.rel
                                           [ music_track_0__Data ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/music_track_1__Data.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/music_track_1__Data.rel
                                           [ music_track_1__Data ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/music_track_2__Data.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/music_track_2__Data.rel
                                           [ music_track_2__Data ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/music_track_3__Data.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/music_track_3__Data.rel
                                           [ music_track_3__Data ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/music_track_4__Data.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/music_track_4__Data.rel
                                           [ music_track_4__Data ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/music_track_5__Data.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/music_track_5__Data.rel
                                           [ music_track_5__Data ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/palette_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/palette_0.rel
                                           [ palette_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/palette_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/palette_1.rel
                                           [ palette_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/palette_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/palette_2.rel
                                           [ palette_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/palette_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/palette_3.rel
                                           [ palette_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/palette_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/palette_4.rel
                                           [ palette_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_0_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_0_actors.rel
                                           [ scene_0_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_0_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_0_collisions.rel
                                           [ scene_0_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_0_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_0_projectiles.rel
                                           [ scene_0_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_0_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_0_sprites.rel
                                           [ scene_0_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_0_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_0_triggers.rel
                                           [ scene_0_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_0.rel
                                           [ scene_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_1_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_1_actors.rel
                                           [ scene_1_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_1_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_1_collisions.rel
                                           [ scene_1_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_1_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_1_projectiles.rel
                                           [ scene_1_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_1_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_1_sprites.rel
                                           [ scene_1_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_1.rel
                                           [ scene_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_10_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_10_actors.rel
                                           [ scene_10_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_10_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_10_collisions.rel
                                           [ scene_10_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_10_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_10_projectiles.rel
                                           [ scene_10_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_10_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_10_sprites.rel
                                           [ scene_10_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_10_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_10_triggers.rel
                                           [ scene_10_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_10.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_10.rel
                                           [ scene_10 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_11_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_11_actors.rel
                                           [ scene_11_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_11_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_11_collisions.rel
                                           [ scene_11_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_11_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_11_projectiles.rel
                                           [ scene_11_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_11_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_11_sprites.rel
                                           [ scene_11_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_11_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_11_triggers.rel
                                           [ scene_11_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_11.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_11.rel
                                           [ scene_11 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_12_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_12_actors.rel
                                           [ scene_12_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_12_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_12_collisions.rel
                                           [ scene_12_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_12_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_12_projectiles.rel
                                           [ scene_12_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_12_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_12_sprites.rel
                                           [ scene_12_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_12_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_12_triggers.rel
                                           [ scene_12_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_12.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_12.rel
                                           [ scene_12 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_13_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_13_actors.rel
                                           [ scene_13_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_13_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_13_collisions.rel
                                           [ scene_13_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_13_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_13_projectiles.rel
                                           [ scene_13_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_13_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_13_sprites.rel
                                           [ scene_13_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_13_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_13_triggers.rel
                                           [ scene_13_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_13.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_13.rel
                                           [ scene_13 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_14_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_14_collisions.rel
                                           [ scene_14_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_14.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_14.rel
                                           [ scene_14 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_15_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_15_collisions.rel
                                           [ scene_15_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_15.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_15.rel
                                           [ scene_15 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_16_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_16_actors.rel
                                           [ scene_16_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_16_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_16_collisions.rel
                                           [ scene_16_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_16_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_16_projectiles.rel
                                           [ scene_16_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_16_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_16_sprites.rel
                                           [ scene_16_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_16_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_16_triggers.rel
                                           [ scene_16_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_16.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_16.rel
                                           [ scene_16 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_17_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_17_actors.rel
                                           [ scene_17_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_17_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_17_collisions.rel
                                           [ scene_17_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_17_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_17_projectiles.rel
                                           [ scene_17_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_17_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_17_sprites.rel
                                           [ scene_17_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_17_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_17_triggers.rel
                                           [ scene_17_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_17.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_17.rel
                                           [ scene_17 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_18_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_18_actors.rel
                                           [ scene_18_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_18_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_18_collisions.rel
                                           [ scene_18_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_18_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_18_projectiles.rel
                                           [ scene_18_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_18_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_18_sprites.rel
                                           [ scene_18_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_18_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_18_triggers.rel
                                           [ scene_18_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_18.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_18.rel
                                           [ scene_18 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_19_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_19_actors.rel
                                           [ scene_19_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_19_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_19_collisions.rel
                                           [ scene_19_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_19_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_19_projectiles.rel
                                           [ scene_19_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_19_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_19_sprites.rel
                                           [ scene_19_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_19_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_19_triggers.rel
                                           [ scene_19_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_19.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_19.rel
                                           [ scene_19 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_2_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_2_collisions.rel
                                           [ scene_2_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_2.rel
                                           [ scene_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_20_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_20_actors.rel
                                           [ scene_20_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_20_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_20_collisions.rel
                                           [ scene_20_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_20_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_20_projectiles.rel
                                           [ scene_20_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_20_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_20_sprites.rel
                                           [ scene_20_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_20_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_20_triggers.rel
                                           [ scene_20_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_20.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_20.rel
                                           [ scene_20 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_21_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_21_actors.rel
                                           [ scene_21_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_21_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_21_collisions.rel
                                           [ scene_21_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_21_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_21_projectiles.rel
                                           [ scene_21_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_21_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_21_sprites.rel
                                           [ scene_21_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_21_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_21_triggers.rel
                                           [ scene_21_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_21.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_21.rel
                                           [ scene_21 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_22_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_22_actors.rel
                                           [ scene_22_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_22_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_22_collisions.rel
                                           [ scene_22_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_22_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_22_projectiles.rel
                                           [ scene_22_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_22_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_22_sprites.rel
                                           [ scene_22_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_22_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_22_triggers.rel
                                           [ scene_22_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_22.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_22.rel
                                           [ scene_22 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_23_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_23_actors.rel
                                           [ scene_23_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_23_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_23_collisions.rel
                                           [ scene_23_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_23_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_23_projectiles.rel
                                           [ scene_23_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_23_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_23_sprites.rel
                                           [ scene_23_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_23_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_23_triggers.rel
                                           [ scene_23_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_23.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_23.rel
                                           [ scene_23 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_24_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_24_actors.rel
                                           [ scene_24_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_24_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_24_collisions.rel
                                           [ scene_24_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_24_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_24_projectiles.rel
                                           [ scene_24_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_24_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_24_sprites.rel
                                           [ scene_24_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_24_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_24_triggers.rel
                                           [ scene_24_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_24.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_24.rel
                                           [ scene_24 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_25_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_25_actors.rel
                                           [ scene_25_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_25_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_25_collisions.rel
                                           [ scene_25_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_25_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_25_projectiles.rel
                                           [ scene_25_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_25_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_25_sprites.rel
                                           [ scene_25_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_25_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_25_triggers.rel
                                           [ scene_25_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_25.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_25.rel
                                           [ scene_25 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_26_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_26_actors.rel
                                           [ scene_26_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_26_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_26_collisions.rel
                                           [ scene_26_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_26_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_26_projectiles.rel
                                           [ scene_26_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_26_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_26_sprites.rel
                                           [ scene_26_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_26_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_26_triggers.rel
                                           [ scene_26_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_26.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_26.rel
                                           [ scene_26 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_27_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_27_actors.rel
                                           [ scene_27_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_27_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_27_collisions.rel
                                           [ scene_27_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_27_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_27_projectiles.rel
                                           [ scene_27_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_27_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_27_sprites.rel
                                           [ scene_27_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_27_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_27_triggers.rel
                                           [ scene_27_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_27.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_27.rel
                                           [ scene_27 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_28_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_28_actors.rel
                                           [ scene_28_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_28_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_28_collisions.rel
                                           [ scene_28_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_28_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_28_projectiles.rel
                                           [ scene_28_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_28_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_28_sprites.rel
                                           [ scene_28_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_28_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_28_triggers.rel
                                           [ scene_28_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_28.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_28.rel
                                           [ scene_28 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_29_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_29_actors.rel
                                           [ scene_29_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_29_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_29_collisions.rel
                                           [ scene_29_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_29_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_29_projectiles.rel
                                           [ scene_29_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_29_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_29_sprites.rel
                                           [ scene_29_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_29_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_29_triggers.rel
                                           [ scene_29_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_29.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_29.rel
                                           [ scene_29 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_3_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_3_actors.rel
                                           [ scene_3_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_3_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_3_collisions.rel
                                           [ scene_3_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_3_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_3_projectiles.rel
                                           [ scene_3_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_3_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_3_sprites.rel
                                           [ scene_3_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_3_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_3_triggers.rel
                                           [ scene_3_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_3.rel
                                           [ scene_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_30_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_30_actors.rel
                                           [ scene_30_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_30_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_30_collisions.rel
                                           [ scene_30_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_30_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_30_projectiles.rel
                                           [ scene_30_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_30_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_30_sprites.rel
                                           [ scene_30_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_30_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_30_triggers.rel
                                           [ scene_30_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_30.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_30.rel
                                           [ scene_30 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_31_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_31_actors.rel
                                           [ scene_31_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_31_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_31_collisions.rel
                                           [ scene_31_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_31_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_31_projectiles.rel
                                           [ scene_31_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_31_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_31_sprites.rel
                                           [ scene_31_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_31_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_31_triggers.rel
                                           [ scene_31_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_31.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_31.rel
                                           [ scene_31 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_32_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_32_actors.rel
                                           [ scene_32_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_32_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_32_collisions.rel
                                           [ scene_32_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_32_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_32_projectiles.rel
                                           [ scene_32_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_32_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_32_sprites.rel
                                           [ scene_32_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_32_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_32_triggers.rel
                                           [ scene_32_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_32.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_32.rel
                                           [ scene_32 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_4_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_4_actors.rel
                                           [ scene_4_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_4_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_4_collisions.rel
                                           [ scene_4_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_4_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_4_projectiles.rel
                                           [ scene_4_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_4_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_4_sprites.rel
                                           [ scene_4_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_4_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_4_triggers.rel
                                           [ scene_4_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_4.rel
                                           [ scene_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_5_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_5_actors.rel
                                           [ scene_5_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_5_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_5_collisions.rel
                                           [ scene_5_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_5_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_5_projectiles.rel
                                           [ scene_5_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_5_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_5_sprites.rel
                                           [ scene_5_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_5_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_5_triggers.rel
                                           [ scene_5_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_5.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_5.rel
                                           [ scene_5 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_6_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_6_actors.rel
                                           [ scene_6_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_6_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_6_collisions.rel
                                           [ scene_6_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_6_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_6_projectiles.rel
                                           [ scene_6_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_6_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_6_sprites.rel
                                           [ scene_6_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_6_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_6_triggers.rel
                                           [ scene_6_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_6.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_6.rel
                                           [ scene_6 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_7_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_7_actors.rel
                                           [ scene_7_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_7_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_7_collisions.rel
                                           [ scene_7_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_7_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_7_projectiles.rel
                                           [ scene_7_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_7_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_7_sprites.rel
                                           [ scene_7_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_7_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_7_triggers.rel
                                           [ scene_7_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_7.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_7.rel
                                           [ scene_7 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_8_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_8_actors.rel
                                           [ scene_8_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_8_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_8_collisions.rel
                                           [ scene_8_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_8_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_8_projectiles.rel
                                           [ scene_8_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_8_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_8_sprites.rel
                                           [ scene_8_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_8_triggers.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_8_triggers.rel
                                           [ scene_8_triggers ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_8.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_8.rel
                                           [ scene_8 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_9_actors.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_9_actors.rel
                                           [ scene_9_actors ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_9_collisions.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_9_collisions.rel
                                           [ scene_9_collisions ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_9_projectiles.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_9_projectiles.rel
                                           [ scene_9_projectiles ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_9_sprites.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_9_sprites.rel
                                           [ scene_9_sprites ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/scene_9.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/scene_9.rel
                                           [ scene_9 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_enemy_boss_hitstun.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_enemy_boss_hitstun.rel
                                           [ script_enemy_boss_hitstun ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_engine_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_engine_init.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_event_enemy_hitstun.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_event_enemy_hitstun.rel
                                           [ script_event_enemy_hitstun ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_event_player_hitstun_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_event_player_hitstun_0.rel
                                           [ script_event_player_hitstun_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_event_player_hitstun_knockback.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_event_player_hitstun_knockback.rel
                                           [ script_event_player_hitstun_knoc ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_event_player_hitstun.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_event_player_hitstun.rel
                                           [ script_event_player_hitstun ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_init_custominputs.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_init_custominputs.rel
                                           [ script_init_custominputs ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_init_player_jumpsfx.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_init_player_jumpsfx.rel
                                           [ script_init_player_jumpsfx ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_init_resetvariables.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_init_resetvariables.rel
                                           [ script_init_resetvariables ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_0.rel
                                           [ script_input_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_1.rel
                                           [ script_input_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_10.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_10.rel
                                           [ script_input_10 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_11.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_11.rel
                                           [ script_input_11 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_12.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_12.rel
                                           [ script_input_12 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_13.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_13.rel
                                           [ script_input_13 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_2.rel
                                           [ script_input_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_3.rel
                                           [ script_input_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_4.rel
                                           [ script_input_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_5.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_5.rel
                                           [ script_input_5 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_6.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_6.rel
                                           [ script_input_6 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_7.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_7.rel
                                           [ script_input_7 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_8.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_8.rel
                                           [ script_input_8 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_input_9.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_input_9.rel
                                           [ script_input_9 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s0_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s0_init.rel
                                           [ script_s0_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s0_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s0_p_hit1.rel
                                           [ script_s0_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s0a1_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s0a1_interact.rel
                                           [ script_s0a1_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s0a4_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s0a4_interact.rel
                                           [ script_s0a4_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s0a4_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s0a4_update.rel
                                           [ script_s0a4_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s0t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s0t0_interact.rel
                                           [ script_s0t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s1_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s1_init.rel
                                           [ script_s1_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10_init.rel
                                           [ script_s10_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10_p_hit1.rel
                                           [ script_s10_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10a12_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10a12_interact.rel
                                           [ script_s10a12_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10a12_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10a12_update.rel
                                           [ script_s10a12_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10a8_interact.rel
                                           [ script_s10a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10a8_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10a8_update.rel
                                           [ script_s10a8_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10a9_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10a9_interact.rel
                                           [ script_s10a9_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10a9_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10a9_update.rel
                                           [ script_s10a9_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10t0_interact.rel
                                           [ script_s10t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s10t1_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s10t1_interact.rel
                                           [ script_s10t1_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s11_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s11_init.rel
                                           [ script_s11_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s11_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s11_p_hit1.rel
                                           [ script_s11_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s11a0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s11a0_interact.rel
                                           [ script_s11a0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s11t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s11t0_interact.rel
                                           [ script_s11t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s12_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s12_init.rel
                                           [ script_s12_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s12_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s12_p_hit1.rel
                                           [ script_s12_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s12a6_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s12a6_interact.rel
                                           [ script_s12a6_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s12a6_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s12a6_update.rel
                                           [ script_s12a6_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s12t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s12t0_interact.rel
                                           [ script_s12t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13_init.rel
                                           [ script_s13_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13_p_hit1.rel
                                           [ script_s13_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a0_interact.rel
                                           [ script_s13a0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a0_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a0_update.rel
                                           [ script_s13a0_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a1_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a1_interact.rel
                                           [ script_s13a1_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a1_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a1_update.rel
                                           [ script_s13a1_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a2_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a2_interact.rel
                                           [ script_s13a2_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a2_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a2_update.rel
                                           [ script_s13a2_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a3_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a3_interact.rel
                                           [ script_s13a3_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13a3_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13a3_update.rel
                                           [ script_s13a3_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s13t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s13t0_interact.rel
                                           [ script_s13t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s14_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s14_init.rel
                                           [ script_s14_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s15_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s15_init.rel
                                           [ script_s15_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s16_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s16_init.rel
                                           [ script_s16_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s16t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s16t0_interact.rel
                                           [ script_s16t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s17_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s17_init.rel
                                           [ script_s17_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s17_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s17_p_hit1.rel
                                           [ script_s17_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s17a4_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s17a4_interact.rel
                                           [ script_s17a4_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s17a5_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s17a5_interact.rel
                                           [ script_s17a5_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s17a5_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s17a5_update.rel
                                           [ script_s17a5_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s17t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s17t0_interact.rel
                                           [ script_s17t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18_init.rel
                                           [ script_s18_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18_p_hit1.rel
                                           [ script_s18_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18a7_interact.rel
                                           [ script_s18a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18a7_update.rel
                                           [ script_s18a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18a8_interact.rel
                                           [ script_s18a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18a8_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18a8_update.rel
                                           [ script_s18a8_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18a9_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18a9_interact.rel
                                           [ script_s18a9_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18a9_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18a9_update.rel
                                           [ script_s18a9_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s18t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s18t0_interact.rel
                                           [ script_s18t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s19_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s19_init.rel
                                           [ script_s19_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s19_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s19_p_hit1.rel
                                           [ script_s19_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s19a4_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s19a4_interact.rel
                                           [ script_s19a4_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s19a5_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s19a5_interact.rel
                                           [ script_s19a5_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s19a5_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s19a5_update.rel
                                           [ script_s19a5_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s19t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s19t0_interact.rel
                                           [ script_s19t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s2_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s2_init.rel
                                           [ script_s2_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20_init.rel
                                           [ script_s20_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20_p_hit1.rel
                                           [ script_s20_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a10_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a10_interact.rel
                                           [ script_s20a10_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a10_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a10_update.rel
                                           [ script_s20a10_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a11_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a11_interact.rel
                                           [ script_s20a11_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a11_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a11_update.rel
                                           [ script_s20a11_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a12_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a12_interact.rel
                                           [ script_s20a12_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a12_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a12_update.rel
                                           [ script_s20a12_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a13_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a13_interact.rel
                                           [ script_s20a13_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20a13_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20a13_update.rel
                                           [ script_s20a13_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s20t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s20t0_interact.rel
                                           [ script_s20t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21_init.rel
                                           [ script_s21_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21_p_hit1.rel
                                           [ script_s21_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21a6_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21a6_interact.rel
                                           [ script_s21a6_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21a6_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21a6_update.rel
                                           [ script_s21a6_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21a7_interact.rel
                                           [ script_s21a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21a7_update.rel
                                           [ script_s21a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21a8_interact.rel
                                           [ script_s21a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21a8_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21a8_update.rel
                                           [ script_s21a8_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s21t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s21t0_interact.rel
                                           [ script_s21t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s22_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s22_init.rel
                                           [ script_s22_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s22_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s22_p_hit1.rel
                                           [ script_s22_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s22a4_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s22a4_interact.rel
                                           [ script_s22a4_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s22a5_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s22a5_interact.rel
                                           [ script_s22a5_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s22a5_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s22a5_update.rel
                                           [ script_s22a5_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s22t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s22t0_interact.rel
                                           [ script_s22t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23_init.rel
                                           [ script_s23_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23_p_hit1.rel
                                           [ script_s23_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a4_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a4_interact.rel
                                           [ script_s23a4_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a4_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a4_update.rel
                                           [ script_s23a4_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a5_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a5_interact.rel
                                           [ script_s23a5_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a5_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a5_update.rel
                                           [ script_s23a5_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a6_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a6_interact.rel
                                           [ script_s23a6_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a6_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a6_update.rel
                                           [ script_s23a6_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a7_interact.rel
                                           [ script_s23a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a7_update.rel
                                           [ script_s23a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23a8_interact.rel
                                           [ script_s23a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s23t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s23t0_interact.rel
                                           [ script_s23t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24_init.rel
                                           [ script_s24_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24_p_hit1.rel
                                           [ script_s24_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a6_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a6_interact.rel
                                           [ script_s24a6_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a6_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a6_update.rel
                                           [ script_s24a6_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a7_interact.rel
                                           [ script_s24a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a7_update.rel
                                           [ script_s24a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a8_interact.rel
                                           [ script_s24a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a8_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a8_update.rel
                                           [ script_s24a8_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a9_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a9_interact.rel
                                           [ script_s24a9_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24a9_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24a9_update.rel
                                           [ script_s24a9_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s24t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s24t0_interact.rel
                                           [ script_s24t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25_init.rel
                                           [ script_s25_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25_p_hit1.rel
                                           [ script_s25_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25a7_interact.rel
                                           [ script_s25a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25a7_update.rel
                                           [ script_s25a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25a8_interact.rel
                                           [ script_s25a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25a8_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25a8_update.rel
                                           [ script_s25a8_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25a9_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25a9_interact.rel
                                           [ script_s25a9_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25a9_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25a9_update.rel
                                           [ script_s25a9_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25t0_interact.rel
                                           [ script_s25t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s25t1_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s25t1_interact.rel
                                           [ script_s25t1_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26_init.rel
                                           [ script_s26_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26_p_hit1.rel
                                           [ script_s26_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a6_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a6_interact.rel
                                           [ script_s26a6_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a6_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a6_update.rel
                                           [ script_s26a6_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a7_interact.rel
                                           [ script_s26a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a7_update.rel
                                           [ script_s26a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a8_interact.rel
                                           [ script_s26a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a8_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a8_update.rel
                                           [ script_s26a8_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a9_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a9_interact.rel
                                           [ script_s26a9_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26a9_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26a9_update.rel
                                           [ script_s26a9_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s26t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s26t0_interact.rel
                                           [ script_s26t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27_init.rel
                                           [ script_s27_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27_p_hit1.rel
                                           [ script_s27_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27a5_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27a5_interact.rel
                                           [ script_s27a5_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27a6_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27a6_interact.rel
                                           [ script_s27a6_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27a6_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27a6_update.rel
                                           [ script_s27a6_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27a7_interact.rel
                                           [ script_s27a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27a7_update.rel
                                           [ script_s27a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s27t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s27t0_interact.rel
                                           [ script_s27t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28_init.rel
                                           [ script_s28_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28_p_hit1.rel
                                           [ script_s28_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a10_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a10_interact.rel
                                           [ script_s28a10_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a10_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a10_update.rel
                                           [ script_s28a10_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a7_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a7_interact.rel
                                           [ script_s28a7_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a7_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a7_update.rel
                                           [ script_s28a7_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a8_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a8_interact.rel
                                           [ script_s28a8_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a8_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a8_update.rel
                                           [ script_s28a8_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a9_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a9_interact.rel
                                           [ script_s28a9_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28a9_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28a9_update.rel
                                           [ script_s28a9_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s28t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s28t0_interact.rel
                                           [ script_s28t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29_init.rel
                                           [ script_s29_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29_p_hit1.rel
                                           [ script_s29_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a10_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a10_interact.rel
                                           [ script_s29a10_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a10_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a10_update.rel
                                           [ script_s29a10_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a11_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a11_interact.rel
                                           [ script_s29a11_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a11_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a11_update.rel
                                           [ script_s29a11_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a12_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a12_interact.rel
                                           [ script_s29a12_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a12_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a12_update.rel
                                           [ script_s29a12_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a13_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a13_interact.rel
                                           [ script_s29a13_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a13_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a13_update.rel
                                           [ script_s29a13_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a9_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a9_interact.rel
                                           [ script_s29a9_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29a9_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29a9_update.rel
                                           [ script_s29a9_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s29t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s29t0_interact.rel
                                           [ script_s29t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3_init.rel
                                           [ script_s3_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3_p_hit1.rel
                                           [ script_s3_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30_init.rel
                                           [ script_s30_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30_p_hit1.rel
                                           [ script_s30_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a11_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a11_interact.rel
                                           [ script_s30a11_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a11_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a11_update.rel
                                           [ script_s30a11_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a12_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a12_interact.rel
                                           [ script_s30a12_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a12_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a12_update.rel
                                           [ script_s30a12_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a13_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a13_interact.rel
                                           [ script_s30a13_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a13_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a13_update.rel
                                           [ script_s30a13_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a14_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a14_interact.rel
                                           [ script_s30a14_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30a14_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30a14_update.rel
                                           [ script_s30a14_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30t0_interact.rel
                                           [ script_s30t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s30t1_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s30t1_interact.rel
                                           [ script_s30t1_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s31_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s31_init.rel
                                           [ script_s31_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s31_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s31_p_hit1.rel
                                           [ script_s31_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s31a2_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s31a2_interact.rel
                                           [ script_s31a2_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s31a2_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s31a2_update.rel
                                           [ script_s31a2_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s31a3_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s31a3_interact.rel
                                           [ script_s31a3_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s31t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s31t0_interact.rel
                                           [ script_s31t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s32_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s32_init.rel
                                           [ script_s32_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s32_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s32_p_hit1.rel
                                           [ script_s32_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s32t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s32t0_interact.rel
                                           [ script_s32t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3a0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3a0_interact.rel
                                           [ script_s3a0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3a0_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3a0_update.rel
                                           [ script_s3a0_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3a2_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3a2_interact.rel
                                           [ script_s3a2_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3a2_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3a2_update.rel
                                           [ script_s3a2_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3a3_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3a3_interact.rel
                                           [ script_s3a3_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3a3_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3a3_update.rel
                                           [ script_s3a3_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s3t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s3t0_interact.rel
                                           [ script_s3t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s4_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s4_init.rel
                                           [ script_s4_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s4a2_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s4a2_interact.rel
                                           [ script_s4a2_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s4a2_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s4a2_update.rel
                                           [ script_s4a2_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s4a3_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s4a3_interact.rel
                                           [ script_s4a3_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s4a3_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s4a3_update.rel
                                           [ script_s4a3_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s4t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s4t0_interact.rel
                                           [ script_s4t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s4t1_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s4t1_interact.rel
                                           [ script_s4t1_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s5_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s5_init.rel
                                           [ script_s5_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s5_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s5_p_hit1.rel
                                           [ script_s5_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s5a0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s5a0_interact.rel
                                           [ script_s5a0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s5a0_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s5a0_update.rel
                                           [ script_s5a0_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s5t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s5t0_interact.rel
                                           [ script_s5t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6_init.rel
                                           [ script_s6_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6_p_hit1.rel
                                           [ script_s6_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6a2_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6a2_interact.rel
                                           [ script_s6a2_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6a2_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6a2_update.rel
                                           [ script_s6a2_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6a3_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6a3_interact.rel
                                           [ script_s6a3_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6a3_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6a3_update.rel
                                           [ script_s6a3_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6a4_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6a4_interact.rel
                                           [ script_s6a4_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6a4_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6a4_update.rel
                                           [ script_s6a4_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s6t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s6t0_interact.rel
                                           [ script_s6t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s7_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s7_init.rel
                                           [ script_s7_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s7_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s7_p_hit1.rel
                                           [ script_s7_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s7a2_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s7a2_interact.rel
                                           [ script_s7a2_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s7a2_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s7a2_update.rel
                                           [ script_s7a2_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s7a3_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s7a3_interact.rel
                                           [ script_s7a3_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s7a3_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s7a3_update.rel
                                           [ script_s7a3_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s7t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s7t0_interact.rel
                                           [ script_s7t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s8_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s8_init.rel
                                           [ script_s8_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s8_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s8_p_hit1.rel
                                           [ script_s8_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s8a2_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s8a2_interact.rel
                                           [ script_s8a2_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s8a2_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s8a2_update.rel
                                           [ script_s8a2_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s8t0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s8t0_interact.rel
                                           [ script_s8t0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s9_init.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s9_init.rel
                                           [ script_s9_init ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s9_p_hit1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s9_p_hit1.rel
                                           [ script_s9_p_hit1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s9a0_interact.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s9a0_interact.rel
                                           [ script_s9a0_interact ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_s9a0_update.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_s9a0_update.rel
                                           [ script_s9a0_update ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_sfx_fireball_attack.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_sfx_fireball_attack.rel
                                           [ script_sfx_fireball_attack ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_sfx_jump.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_sfx_jump.rel
                                           [ script_sfx_jump ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/script_sfx_melee_attack.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/script_sfx_melee_attack.rel
                                           [ script_sfx_melee_attack ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_0.rel
                                           [ spritesheet_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_1.rel
                                           [ spritesheet_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_10.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_10.rel
                                           [ spritesheet_10 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_11.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_11.rel
                                           [ spritesheet_11 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_12.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_12.rel
                                           [ spritesheet_12 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_13.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_13.rel
                                           [ spritesheet_13 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_14.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_14.rel
                                           [ spritesheet_14 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_15.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_15.rel
                                           [ spritesheet_15 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_16.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_16.rel
                                           [ spritesheet_16 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_17.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_17.rel
                                           [ spritesheet_17 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_18.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_18.rel
                                           [ spritesheet_18 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_19.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_19.rel
                                           [ spritesheet_19 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_2.rel
                                           [ spritesheet_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_20.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_20.rel
                                           [ spritesheet_20 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_21.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_21.rel
                                           [ spritesheet_21 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_22.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_22.rel
                                           [ spritesheet_22 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_3.rel
                                           [ spritesheet_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_4.rel
                                           [ spritesheet_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_5.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_5.rel
                                           [ spritesheet_5 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_6.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_6.rel
                                           [ spritesheet_6 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_7.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_7.rel
                                           [ spritesheet_7 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_8.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_8.rel
                                           [ spritesheet_8 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_9.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_9.rel
                                           [ spritesheet_9 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/spritesheet_none.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/spritesheet_none.rel
                                           [ spritesheet_none ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_0.rel
                                           [ tilemap_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_1.rel
                                           [ tilemap_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_10.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_10.rel
                                           [ tilemap_10 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_11.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_11.rel
                                           [ tilemap_11 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_12.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_12.rel
                                           [ tilemap_12 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_13.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_13.rel
                                           [ tilemap_13 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_14.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_14.rel
                                           [ tilemap_14 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_15.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_15.rel
                                           [ tilemap_15 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_16.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_16.rel
                                           [ tilemap_16 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_17.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_17.rel
                                           [ tilemap_17 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_18.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_18.rel
                                           [ tilemap_18 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_19.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_19.rel
                                           [ tilemap_19 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_2.rel
                                           [ tilemap_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_20.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_20.rel
                                           [ tilemap_20 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_21.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_21.rel
                                           [ tilemap_21 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_22.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_22.rel
                                           [ tilemap_22 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_23.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_23.rel
                                           [ tilemap_23 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_24.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_24.rel
                                           [ tilemap_24 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_25.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_25.rel
                                           [ tilemap_25 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_26.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_26.rel
                                           [ tilemap_26 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_27.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_27.rel
                                           [ tilemap_27 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_28.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_28.rel
                                           [ tilemap_28 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_29.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_29.rel
                                           [ tilemap_29 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_3.rel
                                           [ tilemap_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_30.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_30.rel
                                           [ tilemap_30 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_4.rel
                                           [ tilemap_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_5.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_5.rel
                                           [ tilemap_5 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_6.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_6.rel
                                           [ tilemap_6 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_7.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_7.rel
                                           [ tilemap_7 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_8.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_8.rel
                                           [ tilemap_8 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_9.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_9.rel
                                           [ tilemap_9 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_0.rel
                                           [ tilemap_attr_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_1.rel
                                           [ tilemap_attr_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_10.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_10.rel
                                           [ tilemap_attr_10 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_11.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_11.rel
                                           [ tilemap_attr_11 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_12.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_12.rel
                                           [ tilemap_attr_12 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_13.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_13.rel
                                           [ tilemap_attr_13 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_14.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_14.rel
                                           [ tilemap_attr_14 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_15.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_15.rel
                                           [ tilemap_attr_15 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_16.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_16.rel
                                           [ tilemap_attr_16 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_17.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_17.rel
                                           [ tilemap_attr_17 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_18.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_18.rel
                                           [ tilemap_attr_18 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_19.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_19.rel
                                           [ tilemap_attr_19 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_2.rel
                                           [ tilemap_attr_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_20.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_20.rel
                                           [ tilemap_attr_20 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_21.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_21.rel
                                           [ tilemap_attr_21 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_22.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_22.rel
                                           [ tilemap_attr_22 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_23.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_23.rel
                                           [ tilemap_attr_23 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_24.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_24.rel
                                           [ tilemap_attr_24 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_25.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_25.rel
                                           [ tilemap_attr_25 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_26.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_26.rel
                                           [ tilemap_attr_26 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_27.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_27.rel
                                           [ tilemap_attr_27 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_28.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_28.rel
                                           [ tilemap_attr_28 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_29.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_29.rel
                                           [ tilemap_attr_29 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_3.rel
                                           [ tilemap_attr_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_30.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_30.rel
                                           [ tilemap_attr_30 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_31.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_31.rel
                                           [ tilemap_attr_31 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_32.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_32.rel
                                           [ tilemap_attr_32 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_4.rel
                                           [ tilemap_attr_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_5.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_5.rel
                                           [ tilemap_attr_5 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_6.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_6.rel
                                           [ tilemap_attr_6 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_7.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_7.rel
                                           [ tilemap_attr_7 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_8.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_8.rel
                                           [ tilemap_attr_8 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tilemap_attr_9.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tilemap_attr_9.rel
                                           [ tilemap_attr_9 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_0.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_0.rel
                                           [ tileset_0 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_1.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_1.rel
                                           [ tileset_1 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_10.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_10.rel
                                           [ tileset_10 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_11.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_11.rel
                                           [ tileset_11 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_12.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_12.rel
                                           [ tileset_12 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_13.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_13.rel
                                           [ tileset_13 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_14.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_14.rel
                                           [ tileset_14 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_15.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_15.rel
                                           [ tileset_15 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_16.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_16.rel
                                           [ tileset_16 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_17.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_17.rel
                                           [ tileset_17 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_18.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_18.rel
                                           [ tileset_18 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_19.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_19.rel
                                           [ tileset_19 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_2.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_2.rel
                                           [ tileset_2 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_20.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_20.rel
                                           [ tileset_20 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_21.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_21.rel
                                           [ tileset_21 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_22.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_22.rel
                                           [ tileset_22 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_23.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_23.rel
                                           [ tileset_23 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_24.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_24.rel
                                           [ tileset_24 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_25.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_25.rel
                                           [ tileset_25 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_26.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_26.rel
                                           [ tileset_26 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_27.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_27.rel
                                           [ tileset_27 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_28.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_28.rel
                                           [ tileset_28 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_3.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_3.rel
                                           [ tileset_3 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_4.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_4.rel
                                           [ tileset_4 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_5.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_5.rel
                                           [ tileset_5 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_6.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_6.rel
                                           [ tileset_6 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_7.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_7.rel
                                           [ tileset_7 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_8.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_8.rel
                                           [ tileset_8 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/tileset_9.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/tileset_9.rel
                                           [ tileset_9 ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/main.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/main.rel
                                           [ main ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/adventure.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/adventure.rel
                                           [ adventure ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/logo.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/logo.rel
                                           [ logo ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/platform.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/platform.rel
                                           [ platform ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/pointnclick.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/pointnclick.rel
                                           [ pointnclick ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/shmup.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/shmup.rel
                                           [ shmup ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/states_ptrs.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/states_ptrs.rel
                                           [  ]
-C:/Users/chris/AppData/Local/Temp/_gbsbuild/obj/topdown.rel
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbsbuild/obj/topdown.rel
                                           [ topdown ]
 
 
 Libraries Linked                          [ object file ]
 
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ fill_rect_wi.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ sfr.o ]
 lib/hUGEDriver.lib                        [ hUGEDriver.obj.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ rand.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ cgb_palettes.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ mul.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ abs.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ set_wi_t.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ set_data.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ reverse.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ far_ptr.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ sgb.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ lcd.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ fill_rect.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ cpy_data.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ fill_rect_bk.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ pad.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ metasprites.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ __sdcc_call_hl.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ _memcpy.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ _memset.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ ___sdcc_bcall_ehl.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ cgb.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
                                           [ div.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ set_bk_t.o ]
-C:\Users\chris\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+/var/folders/w4/3_vw_0sn7wbfhpbkm9mn071r0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
                                           [ set_xy_t.o ]
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 96.
